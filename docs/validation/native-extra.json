@@ -1,0 +1,156 @@
+{
+  "short_external_effect": {
+    "interests": 0,
+    "last_scan_cost_ms": 0.0,
+    "pos": [
+      0.5,
+      -60.0,
+      0.5
+    ],
+    "effects": [
+      {
+        "duration": 14,
+        "amplifier": 0,
+        "effectName": "night_vision",
+        "duration_f": 14.550000190734863
+      }
+    ],
+    "ready": true,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 0,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "saved_lease": null,
+    "cache": 0,
+    "health": 20.0,
+    "revision": 8,
+    "dimension": 0,
+    "lease": null
+  },
+  "deep_ore_and_mechanism": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "ore",
+        "count": 3,
+        "rare": true,
+        "pos": [
+          5.5,
+          -60.5,
+          0.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(5, -61, 0)"
+      },
+      {
+        "category": "container",
+        "count": 1,
+        "id": "block:minecraft:chest:(8, -60, 0)",
+        "pos": [
+          8.5,
+          -59.5,
+          0.5
+        ],
+        "label": "箱子"
+      },
+      {
+        "category": "mechanism",
+        "count": 1,
+        "id": "block:minecraft:lever:(10, -60, 0)",
+        "pos": [
+          10.5,
+          -59.5,
+          0.5
+        ],
+        "label": "拉杆"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773002.406,
+    "progress": [
+      21,
+      128
+    ],
+    "pending": null,
+    "revision": 9,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CA3E582F60>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 3480,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773000.915003,
+    "command_result": null,
+    "dimension": 0
+  },
+  "filters_off": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773003.405,
+    "progress": [
+      0,
+      0
+    ],
+    "pending": null,
+    "revision": 10,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CA3E582F60>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 3510,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": false,
+      "entity_enabled": false,
+      "level": 6,
+      "performance": "balanced",
+      "ore_enabled": false,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773002.523992,
+    "command_result": null,
+    "dimension": 0
+  }
+}

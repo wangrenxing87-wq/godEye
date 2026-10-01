@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-30T13:16:42.961595+00:00",
+  "source_page": "https://mcdev.webapp.163.com/#/square",
+  "version_endpoint": "https://mc-launcher.webapp.163.com/users/get/download-version",
+  "download_endpoint": "https://mc-launcher.webapp.163.com/users/get/download/pe",
+  "apk_source": "https://g79.gdl.netease.com/dev_launcher_3.10.100.299889.apk",
+  "package": "com.netease.mctest",
+  "version": "3.10.100.299889",
+  "version_code": 840299889,
+  "bytes": 2315617832,
+  "sha256": "c0f714fcfe3e79d596fca2482f4fdd3c9c3db1568083a4acb1fbd630c7417cb1",
+  "abi": "arm64-v8a",
+  "minimum_android_sdk": 26,
+  "device": "emulator-5658",
+  "android": "9",
+  "installation_status": "installed",
+  "cancelled_streaming_session": 2004591066,
+  "cancel_reason": "No transfer progress at 0.6448688 across repeated PackageInstaller and Windows IO observations; install session explicitly abandoned before retry."
+}

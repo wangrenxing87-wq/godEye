@@ -1,0 +1,90 @@
+{
+  "images": {
+    "icon_landscape": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\design\\icon-landscape.png",
+      "source_sha256": "ba0b05c338ff05224e77e4ad63233de776617f0769d8636f3bcf02eee174e6ec",
+      "output": "icon-992x558.png",
+      "output_sha256": "753f0a26f335c2e2ef0c5a0880e2cce68e89c112639fbcd5d243963b0e0ffc01",
+      "spec_sha256": "d0db8af9845db8a3dcaa83c5484352c63b816b8333fcd099552ba60ec39eeb30"
+    },
+    "icon_square": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\design\\icon-square.png",
+      "source_sha256": "7567bc5434f2895a6a11ac7a741261a3639725d454ae7e221a184b7f11b887d3",
+      "output": "icon-1000x1000.png",
+      "output_sha256": "6d7a5ce595ad1b6ded3e5d1427289f051d0d50ef8bfe6d97f878853b28073b09",
+      "spec_sha256": "b815174023189ac36598743e919af680530ed19b32ad956c6cfbf3c1eb9b331c"
+    },
+    "icon_card": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\design\\icon-card.png",
+      "source_sha256": "bf1c471503faf4ac1797d486fdccef6521055c91cff1e2143ff67ebb8dfe43ce",
+      "output": "icon-900x580.png",
+      "output_sha256": "fc12501bd434ed48c96695047e0181478eada508e99a33a2b8ec11aff9b3079f",
+      "spec_sha256": "6f938b3c89ebd473d6e2b7ef163a4217c1b3a2a6f6b8de87f1258f4730c56b8d"
+    },
+    "carousel_01": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\gameplay\\menu.png",
+      "source_sha256": "1a9b08cb44a76f5540adf2ed676decbd19c810b2304e60b0761839901eb1643e",
+      "output": "carousel-01.png",
+      "output_sha256": "b6b3dd586d032b341c33d5cfeb4b31a0fc6229f5f49e16b0fd791685cff9e6bb",
+      "spec_sha256": "367895784e85ab33ce9edf01e80fd291a3f8519170f63dd6ef817a6bea5278d7"
+    },
+    "carousel_02": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\gameplay\\night-on.png",
+      "source_sha256": "0121baaf5b303de555c25f58a9c3c6f870b29774b8a3f577939d27bc05bdb71c",
+      "output": "carousel-02.png",
+      "output_sha256": "fdaf4bb1f1961a61168d4ad5652ff387e257ffc3457f5524801833c565360536",
+      "spec_sha256": "be9f83db7481caaf5a0e8d070e3c925bc4cc7bf2a7e65f54fd5352298ea2b957"
+    },
+    "carousel_03": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\gameplay\\markers.png",
+      "source_sha256": "fdd7ba501bc00249b04f13e5b151a3f7959fa5879467753495c809d91e334fe4",
+      "output": "carousel-03.png",
+      "output_sha256": "ff9d0d10e11a01338d73f4f33e047793e37ba271d497c5bac538b6bd04391caf",
+      "spec_sha256": "f8a2bbfbddd5305a1cdef7b91be5b96273e7d840fc3da85e325a017ee54de1af"
+    },
+    "home": {
+      "source": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\design\\home.png",
+      "source_sha256": "433e4198b3b9e9ff4cbdcad8b6da086bd41acebf38624fe7cde921d74f21d0fa",
+      "output": "home-940x450.png",
+      "output_sha256": "d93e545a58c7e6125d7abcac0c44c0f998378fed8b3d0d28ad6b2eafbfefcf73",
+      "spec_sha256": "f5a306cc3f3a8335c07a628c6ef488ab3f143922779b7170d03102db01ad583c"
+    }
+  },
+  "video": {
+    "sources": [
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\01-intro.mp4",
+        "sha256": "2f154769c5a994467dc29eab4e7fc4582f64b43dfb77bd23872e24e17ff33b0a"
+      },
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\02-vision.mp4",
+        "sha256": "2dae54e581666146f4a736f77849e1e3a24a968f8e9ed2c7804515a0911732b7"
+      },
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\03-sense.mp4",
+        "sha256": "aa850bdaf676f25fe26972a76697c069a3288c925a93328a8f27bae6e7c265b6"
+      },
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\04-markers.mp4",
+        "sha256": "e9a4f625e2d2d798cfe0597de86da7ff144f1cd51882730e25f4619d668a5f3e"
+      },
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\05-controls.mp4",
+        "sha256": "6cbc414a8e50fdbbb20795b51dc76eb0a764a47c77ee5e8ee0f4e8bfae251831"
+      },
+      {
+        "path": "C:\\Apps\\mercuryx\\godEye\\release\\sources\\edited\\06-outro.mp4",
+        "sha256": "1e5d678ccef3af3d15218580373b8885e5cbb062556f74a2d0f994f6523fb502"
+      }
+    ],
+    "output_sha256": "48c1f61d7691f76ed00515641dd90e0a59639a4821e2399821c7fafd3131063c",
+    "spec_sha256": "4691de81b56a6564de7a0c6b7d129f38fc6023aac0482f481eda4d9fe52a10a7"
+  },
+  "cover": {
+    "source": "C:\\Apps\\mercuryx\\godEye\\release\\video\\promo.mp4",
+    "source_sha256": "48c1f61d7691f76ed00515641dd90e0a59639a4821e2399821c7fafd3131063c",
+    "output": "video-cover.png",
+    "output_sha256": "6e06657e827f7ea7e54aae63d412500b23ee23ab3b72a80b725360d9f19dc478",
+    "spec_sha256": "0034341fc67e05b11b24d943fc19509d85c119c2d1b6f64d762717a21cd787df"
+  }
+}

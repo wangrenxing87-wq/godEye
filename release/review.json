@@ -1,0 +1,30 @@
+{
+  "activity_fields": {
+    "passed": false,
+    "evidence": "copy/activity.md为通用稿，没有指定活动表单，无法逐字段核对。"
+  },
+  "claims_and_details": {
+    "passed": true,
+    "evidence": "copy/details.txt去空白745字；对照README.md、docs/acceptance.md与本轮真实拍摄；说明手机/多人/旧引擎未验收、目标需接口接入及已加载区块限制。"
+  },
+  "visual_quality": {
+    "passed": true,
+    "evidence": "逐版查看四张宣传图与sources/design/deliverables-contact.jpg缩略图：标题、眼睛清晰，不同尺寸独立构图，无拉伸；宣传背景裁除开发UI；三张轮播保留实机界面。"
+  },
+  "gameplay_authenticity": {
+    "passed": true,
+    "evidence": "2026-10-01在独立Windows测试世界实时采集menu.png、night-on.png、markers.png；1280×720原图，最终仅等比缩小；对应JSON保存客户端和服务端状态，scene-setup.json保存搭景操作；演示场景及接入任务不属于组件附送内容。"
+  },
+  "video_core_coverage_and_audio": {
+    "passed": false,
+    "evidence": "65秒成片完整解码通过；每2秒抽帧与原始操作记录核对，覆盖vision/sense/markers/controls；H.264/AAC，实机录屏加说明条和原创合成音乐。平均-33.4dB，峰值-23.3dB，无数字削波；尚未实时完整观看及实际试听，机器分析不替代人工试听。"
+  },
+  "namespace_and_runtime": {
+    "passed": false,
+    "evidence": "package/inspection-report.json不通过：mercuryx_godeye系统域/存档键及nightvision标签未满足mercuryx契约；最低引擎[1,18,0]仅字段正确。桌面3.10.0.420447已实测，手机、真实多人、旧引擎及已知HUD布局问题尚未完成验收。"
+  },
+  "package_import": {
+    "passed": false,
+    "evidence": "新UUID复核ZIP已成功导入MCStudio，25个文件与ZIP逐字节一致（package/import-check.json）；仅manifest变化，其他23个文件一致（uuid-check.json）。本轮未启动新的测试世界，旧UUID包运行记录保存在package/history/import-check-original-uuid.json，不能签署为新包完整运行验收。"
+  }
+}

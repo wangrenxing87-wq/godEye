@@ -1,0 +1,1714 @@
+{
+  "client": {
+    "hud": true,
+    "entry_relative": null,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000021EC59B89B0>",
+    "light": 0,
+    "ui_created": true,
+    "command_result": true,
+    "entry_events": [],
+    "dead": false,
+    "ready": true,
+    "enhancement_owned": true,
+    "enhancement_value": [
+      1.1,
+      1.1,
+      0.96
+    ],
+    "tick": 11280,
+    "entry_position": [
+      542.0,
+      28.0
+    ],
+    "root_size": [
+      640.0,
+      360.0
+    ],
+    "engine_dimension": 0,
+    "boards": 6,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 6,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "runtime_errors": {},
+    "menu": false,
+    "visual_notice": "",
+    "last_command": 1790784838.0078025,
+    "targets": [
+      {
+        "category": "spirit",
+        "entityId": "-77309411318",
+        "label": "灵体",
+        "id": "entity:-77309411318",
+        "pos": [
+          96.5,
+          -60.0,
+          12.5
+        ]
+      },
+      {
+        "category": "ore",
+        "count": 8,
+        "rare": true,
+        "pos": [
+          83.5,
+          -59.5,
+          12.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(83, -60, 12)"
+      },
+      {
+        "category": "ore",
+        "count": 8,
+        "rare": true,
+        "pos": [
+          102.5,
+          -59.5,
+          14.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(102, -60, 14)"
+      },
+      {
+        "category": "container",
+        "count": 1,
+        "id": "block:minecraft:chest:(99, -60, 19)",
+        "pos": [
+          99.5,
+          -59.5,
+          19.5
+        ],
+        "label": "箱子"
+      },
+      {
+        "category": "entrance",
+        "label": "遗迹入口",
+        "pos": [
+          94.5,
+          -59.0,
+          21.5
+        ],
+        "id": "godeye_demo:entrance"
+      },
+      {
+        "category": "quest",
+        "label": "探索目标",
+        "pos": [
+          96.5,
+          -59.0,
+          25.5
+        ],
+        "id": "godeye_demo:quest"
+      }
+    ],
+    "entry_visible": true,
+    "error": null,
+    "fps": 60.0775146484375,
+    "time": 1790784846.368,
+    "progress": [
+      263,
+      263
+    ],
+    "entry_size": [
+      88.0,
+      36.0
+    ],
+    "dimension": 0,
+    "pending": null,
+    "revision": 1
+  },
+  "server": {
+    "error": null,
+    "initial_players": {
+      "-4294967295": {
+        "tick": 129,
+        "saved": {
+          "duration": 45,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "effect": [
+          {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.54999923706055
+          }
+        ],
+        "restored": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        }
+      }
+    },
+    "tile_max_ms": 1.322099999981674,
+    "tile_count": 1200,
+    "lease_trace": [
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_before",
+        "tick": 10170,
+        "now": 339.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_after",
+        "tick": 10170,
+        "now": 339.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 36,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 36.0
+        },
+        "kind": "maintain_before",
+        "tick": 10200,
+        "now": 340.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 36,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 36,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 36.0
+        },
+        "kind": "maintain_after",
+        "tick": 10200,
+        "now": 340.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 36,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.0
+        },
+        "kind": "maintain_before",
+        "tick": 10230,
+        "now": 341.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.0
+        },
+        "kind": "maintain_after",
+        "tick": 10230,
+        "now": 341.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 34,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 34.0
+        },
+        "kind": "maintain_before",
+        "tick": 10260,
+        "now": 342.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 34,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 34,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 34.0
+        },
+        "kind": "maintain_after",
+        "tick": 10260,
+        "now": 342.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 34,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 33,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 33.0
+        },
+        "kind": "maintain_before",
+        "tick": 10290,
+        "now": 343.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 33,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 33,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 33.0
+        },
+        "kind": "maintain_after",
+        "tick": 10290,
+        "now": 343.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 33,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 32,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 32.0
+        },
+        "kind": "maintain_before",
+        "tick": 10320,
+        "now": 344.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 32,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 32,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 32.0
+        },
+        "kind": "maintain_after",
+        "tick": 10320,
+        "now": 344.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 32,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 31,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 31.0
+        },
+        "kind": "maintain_before",
+        "tick": 10350,
+        "now": 345.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 31,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 31,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 31.0
+        },
+        "kind": "maintain_after",
+        "tick": 10350,
+        "now": 345.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 31,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 30,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 30.0
+        },
+        "kind": "maintain_before",
+        "tick": 10380,
+        "now": 346.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 30,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 30,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 30.0
+        },
+        "kind": "maintain_after",
+        "tick": 10380,
+        "now": 346.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 30,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 29,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 29.0
+        },
+        "kind": "maintain_before",
+        "tick": 10410,
+        "now": 347.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 29,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 29,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 29.0
+        },
+        "kind": "maintain_after",
+        "tick": 10410,
+        "now": 347.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 29,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 28,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 28.0
+        },
+        "kind": "maintain_before",
+        "tick": 10440,
+        "now": 348.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 28,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 28,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 28.0
+        },
+        "kind": "maintain_after",
+        "tick": 10440,
+        "now": 348.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 28,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 27,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 27.0
+        },
+        "kind": "maintain_before",
+        "tick": 10470,
+        "now": 349.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 27,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 27,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 27.0
+        },
+        "kind": "maintain_after",
+        "tick": 10470,
+        "now": 349.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 27,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 26,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 26.0
+        },
+        "kind": "maintain_before",
+        "tick": 10500,
+        "now": 350.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 26,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 26,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 26.0
+        },
+        "kind": "maintain_after",
+        "tick": 10500,
+        "now": 350.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 26,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 25,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 25.0
+        },
+        "kind": "maintain_before",
+        "tick": 10530,
+        "now": 351.0,
+        "until": 376.0,
+        "owned": {
+          "duration": 25,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "kind": "observe",
+        "tick": 10530,
+        "amplifier": 0,
+        "owned": {
+          "duration": 25,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": true,
+        "current": {
+          "duration": 25,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 25.0
+        },
+        "duration": 45,
+        "now": 351.0,
+        "until": 376.0
+      },
+      {
+        "current": {
+          "duration": 45,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 45.0
+        },
+        "kind": "maintain_after",
+        "tick": 10530,
+        "now": 351.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 45,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.0
+        },
+        "kind": "maintain_before",
+        "tick": 10560,
+        "now": 352.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.0
+        },
+        "kind": "maintain_after",
+        "tick": 10560,
+        "now": 352.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 43,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 43.0
+        },
+        "kind": "maintain_before",
+        "tick": 10590,
+        "now": 353.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 43,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 43,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 43.0
+        },
+        "kind": "maintain_after",
+        "tick": 10590,
+        "now": 353.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 43,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.0
+        },
+        "kind": "maintain_before",
+        "tick": 10620,
+        "now": 354.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.0
+        },
+        "kind": "maintain_after",
+        "tick": 10620,
+        "now": 354.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.0
+        },
+        "kind": "maintain_before",
+        "tick": 10650,
+        "now": 355.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.0
+        },
+        "kind": "maintain_after",
+        "tick": 10650,
+        "now": 355.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 40,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 40.0
+        },
+        "kind": "maintain_before",
+        "tick": 10680,
+        "now": 356.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 40,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 40,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 40.0
+        },
+        "kind": "maintain_after",
+        "tick": 10680,
+        "now": 356.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 40,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 39,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 39.0
+        },
+        "kind": "maintain_before",
+        "tick": 10710,
+        "now": 357.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 39,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 39,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 39.0
+        },
+        "kind": "maintain_after",
+        "tick": 10710,
+        "now": 357.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 39,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 38,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 38.0
+        },
+        "kind": "maintain_before",
+        "tick": 10740,
+        "now": 358.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 38,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 38,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 38.0
+        },
+        "kind": "maintain_after",
+        "tick": 10740,
+        "now": 358.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 38,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_before",
+        "tick": 10770,
+        "now": 359.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_after",
+        "tick": 10770,
+        "now": 359.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 36,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 36.0
+        },
+        "kind": "maintain_before",
+        "tick": 10800,
+        "now": 360.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 36,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 36,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 36.0
+        },
+        "kind": "maintain_after",
+        "tick": 10800,
+        "now": 360.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 36,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.0
+        },
+        "kind": "maintain_before",
+        "tick": 10830,
+        "now": 361.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.0
+        },
+        "kind": "maintain_after",
+        "tick": 10830,
+        "now": 361.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 34,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 34.0
+        },
+        "kind": "maintain_before",
+        "tick": 10860,
+        "now": 362.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 34,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 34,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 34.0
+        },
+        "kind": "maintain_after",
+        "tick": 10860,
+        "now": 362.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 34,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 33,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 33.0
+        },
+        "kind": "maintain_before",
+        "tick": 10890,
+        "now": 363.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 33,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 33,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 33.0
+        },
+        "kind": "maintain_after",
+        "tick": 10890,
+        "now": 363.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 33,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 32,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 32.0
+        },
+        "kind": "maintain_before",
+        "tick": 10920,
+        "now": 364.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 32,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 32,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 32.0
+        },
+        "kind": "maintain_after",
+        "tick": 10920,
+        "now": 364.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 32,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 31,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 31.0
+        },
+        "kind": "maintain_before",
+        "tick": 10950,
+        "now": 365.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 31,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 31,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 31.0
+        },
+        "kind": "maintain_after",
+        "tick": 10950,
+        "now": 365.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 31,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 30,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 30.0
+        },
+        "kind": "maintain_before",
+        "tick": 10980,
+        "now": 366.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 30,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 30,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 30.0
+        },
+        "kind": "maintain_after",
+        "tick": 10980,
+        "now": 366.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 30,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 29,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 29.0
+        },
+        "kind": "maintain_before",
+        "tick": 11010,
+        "now": 367.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 29,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 29,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 29.0
+        },
+        "kind": "maintain_after",
+        "tick": 11010,
+        "now": 367.0,
+        "until": 396.0,
+        "owned": {
+          "duration": 29,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": null,
+        "kind": "maintain_before",
+        "tick": 11040,
+        "now": 368.0,
+        "until": 0,
+        "owned": null,
+        "writing": false
+      },
+      {
+        "kind": "observe",
+        "tick": 11040,
+        "amplifier": 0,
+        "owned": null,
+        "writing": true,
+        "current": null,
+        "duration": 45,
+        "now": 368.0,
+        "until": 0
+      },
+      {
+        "current": {
+          "duration": 45,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 45.0
+        },
+        "kind": "maintain_after",
+        "tick": 11040,
+        "now": 368.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 45,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.0
+        },
+        "kind": "maintain_before",
+        "tick": 11070,
+        "now": 369.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.0
+        },
+        "kind": "maintain_after",
+        "tick": 11070,
+        "now": 369.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.95000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 11100,
+        "now": 370.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.95000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 11100,
+        "now": 370.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.95000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 11130,
+        "now": 371.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.95000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 11130,
+        "now": 371.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.0
+        },
+        "kind": "maintain_before",
+        "tick": 11160,
+        "now": 372.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.0
+        },
+        "kind": "maintain_after",
+        "tick": 11160,
+        "now": 372.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 40,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 40.0
+        },
+        "kind": "maintain_before",
+        "tick": 11190,
+        "now": 373.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 40,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 40,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 40.0
+        },
+        "kind": "maintain_after",
+        "tick": 11190,
+        "now": 373.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 40,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 39,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 39.0
+        },
+        "kind": "maintain_before",
+        "tick": 11220,
+        "now": 374.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 39,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 39,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 39.0
+        },
+        "kind": "maintain_after",
+        "tick": 11220,
+        "now": 374.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 39,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 38,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 38.0
+        },
+        "kind": "maintain_before",
+        "tick": 11250,
+        "now": 375.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 38,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 38,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 38.0
+        },
+        "kind": "maintain_after",
+        "tick": 11250,
+        "now": 375.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 38,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_before",
+        "tick": 11280,
+        "now": 376.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 37,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 37.0
+        },
+        "kind": "maintain_after",
+        "tick": 11280,
+        "now": 376.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 37,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.95000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 11310,
+        "now": 377.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 35,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 35.95000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 11310,
+        "now": 377.0,
+        "until": 413.0,
+        "owned": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      }
+    ],
+    "runtime_errors": {},
+    "tick": 11310,
+    "players": {
+      "-4294967295": {
+        "interests": 263,
+        "last_scan_cost_ms": 0.0,
+        "pos": [
+          92.5,
+          -60.0,
+          2.5
+        ],
+        "effects": [
+          {
+            "duration": 35,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 35.95000076293945
+          }
+        ],
+        "ready": true,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "saved_lease": {
+          "duration": 45,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "cache": 263,
+        "health": 20.0,
+        "revision": 1,
+        "dimension": 0,
+        "lease": {
+          "duration": 35,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        }
+      }
+    },
+    "last_command": 1790784837.4052594,
+    "time": 1790784846.325,
+    "command_result": true,
+    "tile_p95_ms": 0.4344999999830179
+  }
+}

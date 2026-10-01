@@ -1,0 +1,20 @@
+{
+  "passed": false,
+  "errors": [
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 7: unexpected namespace 'mercuryx_godeye' in 'mercuryx_godeye:settings_v1'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 8: unexpected namespace 'mercuryx_godeye' in 'mercuryx_godeye:night_lease_v1'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 88: unexpected namespace 'nightvision' in 'nightvision:hidden'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 88: unexpected namespace 'nightvision' in 'nightvision:spirit'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 89: unexpected namespace 'nightvision' in 'nightvision:special'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 89: unexpected namespace 'nightvision' in 'nightvision:quest_target'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 90: unexpected namespace 'nightvision' in 'nightvision:hidden_chest'",
+    "behavior_pack_qbUAm8gp/godEyeScripts/config.py: line 91: unexpected namespace 'nightvision' in 'nightvision:hidden_mechanism'",
+    "No literal mercuryx content/system namespace found; automatic namespace verification is incomplete"
+  ],
+  "warnings": [
+    "behavior_pack_qbUAm8gp/godEyeScripts/modMain.py: review dynamic system namespace and event/UI references in-game"
+  ],
+  "namespace_evidence": [],
+  "pack_count": 2,
+  "staged_engine_changes": []
+}

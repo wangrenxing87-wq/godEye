@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-01",
+  "timezone": "Asia/Shanghai",
+  "mod_version": "1.0.0",
+  "environment": "Windows开发包3.10.0.420447 / RenderDragon",
+  "capture_size": [
+    1280,
+    720
+  ],
+  "gameplay": "原生录屏与PrintWindow截图；独立测试世界搭建的洞穴；不是AI或编辑器画面",
+  "registered_targets": "遗迹入口/探索目标由测试探针经组件公开RegisterTarget接口注册，非组件附送任务",
+  "graphics": "Pillow编排实机背景与原工程像素眼睛；微软雅黑字体；无AI生图",
+  "audio": "自行以正弦音源合成环境音乐；无第三方采样、旁白或游戏原声；尚未实际试听",
+  "raw_clip_order": [
+    "01-intro",
+    "02-vision",
+    "03-sense",
+    "04-markers",
+    "05-controls",
+    "06-outro"
+  ],
+  "source_files": [
+    {
+      "path": "sources/design/01-intro-caption.png",
+      "sha256": "e5f8a038ae66889c6c5cafc3a9b94f690d2869287749a5770b98b4358970f599",
+      "bytes": 22941
+    },
+    {
+      "path": "sources/design/02-vision-caption.png",
+      "sha256": "719a5d19646cca9755f136c8af09d48ad165747c6948fbb03ccddd7238cd5d4f",
+      "bytes": 26541
+    },
+    {
+      "path": "sources/design/03-sense-caption.png",
+      "sha256": "19ea0248c49d679161fefc2053aae0cdf6f4a1dfa97e79dee8f3b9aa8fd75086",
+      "bytes": 31782
+    },
+    {
+      "path": "sources/design/04-markers-caption.png",
+      "sha256": "56cee7fc729e71cb55b9ddfaa9b1ca2eabd61806d218f83c35d769939d54e34d",
+      "bytes": 27970
+    },
+    {
+      "path": "sources/design/05-controls-caption.png",
+      "sha256": "e289a29c75eb2958581846207a2d83c3e640f025f737b618fa71a7b2d8010402",
+      "bytes": 31838
+    },
+    {
+      "path": "sources/design/06-outro-caption.png",
+      "sha256": "5130b0c028f55d50217e6e45de5366724a3935c85dc6dd53b8cd569a6fdf2abb",
+      "bytes": 23787
+    },
+    {
+      "path": "sources/design/contact-sheet.jpg",
+      "sha256": "a8522f8af81d0a490453d3c6a569027c1cafddf7a6f98df64e8acb03bcf35b51",
+      "bytes": 96877
+    },
+    {
+      "path": "sources/design/deliverables-contact.jpg",
+      "sha256": "9e359334c9eefe27e221cd30dc7d607922140fe9305c8f3b526a1a7cf5767ff8",
+      "bytes": 145239
+    },
+    {
+      "path": "sources/design/home.png",
+      "sha256": "433e4198b3b9e9ff4cbdcad8b6da086bd41acebf38624fe7cde921d74f21d0fa",
+      "bytes": 295854
+    },
+    {
+      "path": "sources/design/icon-card.png",
+      "sha256": "bf1c471503faf4ac1797d486fdccef6521055c91cff1e2143ff67ebb8dfe43ce",
+      "bytes": 302243
+    },
+    {
+      "path": "sources/design/icon-landscape.png",
+      "sha256": "ba0b05c338ff05224e77e4ad63233de776617f0769d8636f3bcf02eee174e6ec",
+      "bytes": 352131
+    },
+    {
+      "path": "sources/design/icon-square.png",
+      "sha256": "7567bc5434f2895a6a11ac7a741261a3639725d454ae7e221a184b7f11b887d3",
+      "bytes": 484724
+    },
+    {
+      "path": "sources/design/original-ambient.wav",
+      "sha256": "eb1bb195d54a71ab9c108e6456a6d95263f476892c9b5fa66eb16dccdc237c26",
+      "bytes": 4160044
+    },
+    {
+      "path": "sources/design/video-contact.jpg",
+      "sha256": "98f32e1a381bfc2cb7c8e0bd936d86d060587b162ed832db076ed06d8a5b9060",
+      "bytes": 212376
+    },
+    {
+      "path": "sources/edited/01-intro.mp4",
+      "sha256": "2f154769c5a994467dc29eab4e7fc4582f64b43dfb77bd23872e24e17ff33b0a",
+      "bytes": 279120
+    },
+    {
+      "path": "sources/edited/02-vision.mp4",
+      "sha256": "2dae54e581666146f4a736f77849e1e3a24a968f8e9ed2c7804515a0911732b7",
+      "bytes": 713890
+    },
+    {
+      "path": "sources/edited/03-sense.mp4",
+      "sha256": "aa850bdaf676f25fe26972a76697c069a3288c925a93328a8f27bae6e7c265b6",
+      "bytes": 622161
+    },
+    {
+      "path": "sources/edited/04-markers.mp4",
+      "sha256": "e9a4f625e2d2d798cfe0597de86da7ff144f1cd51882730e25f4619d668a5f3e",
+      "bytes": 571591
+    },
+    {
+      "path": "sources/edited/05-controls.mp4",
+      "sha256": "6cbc414a8e50fdbbb20795b51dc76eb0a764a47c77ee5e8ee0f4e8bfae251831",
+      "bytes": 518395
+    },
+    {
+      "path": "sources/edited/06-outro.mp4",
+      "sha256": "1e5d678ccef3af3d15218580373b8885e5cbb062556f74a2d0f994f6523fb502",
+      "bytes": 274037
+    },
+    {
+      "path": "sources/gameplay/01-intro-events.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "sources/gameplay/01-intro.mp4",
+      "sha256": "55d76bf3744f63a3bfe67297316a05baca6680e304aa3becb3ad8fd5413e8c92",
+      "bytes": 175572
+    },
+    {
+      "path": "sources/gameplay/02-vision-events.json",
+      "sha256": "84cc48f5ab05d12c180a426d57c312d1eeb5edfaaf6f04822edcfe92badf2071",
+      "bytes": 4187
+    },
+    {
+      "path": "sources/gameplay/02-vision.mp4",
+      "sha256": "31d60bc4da126e605c8745c06c4b5ea7603f7f094e4a7040f6ea01116be93582",
+      "bytes": 386835
+    },
+    {
+      "path": "sources/gameplay/03-sense-events.json",
+      "sha256": "88bc399f3495d0bf7ae5b57b16cc666644ced3815ef8ca7f74bc0a952e5add68",
+      "bytes": 2155
+    },
+    {
+      "path": "sources/gameplay/03-sense.mp4",
+      "sha256": "168c241dda5d046bb4374edad482affc85c5a5640d94fe694fd5ccd30d5b0c5f",
+      "bytes": 401428
+    },
+    {
+      "path": "sources/gameplay/04-markers-events.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "sources/gameplay/04-markers.mp4",
+      "sha256": "506f255eeacc1196a97b79069e4fc0afb4d761840151337fc59ceec1266758ee",
+      "bytes": 386321
+    },
+    {
+      "path": "sources/gameplay/05-controls-events.json",
+      "sha256": "e9aca764ef29988113cbd76df4b6c35774b3324eae3d5d3fc0ad5a8251620224",
+      "bytes": 13809
+    },
+    {
+      "path": "sources/gameplay/05-controls.mp4",
+      "sha256": "e29de446733d2756bd3ba602276fa09e6f6b27e667ec7892a0f86cc92717cb83",
+      "bytes": 257839
+    },
+    {
+      "path": "sources/gameplay/06-outro-events.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "sources/gameplay/06-outro.mp4",
+      "sha256": "e603a567239d0d3f81fc4758426d3d2fb4499e79a9b4ab7090c7031a108d472c",
+      "bytes": 169476
+    },
+    {
+      "path": "sources/gameplay/markers.json",
+      "sha256": "8cb6952a10546428660c01ba22e935db268312f3010b777910e23aede311fd1a",
+      "bytes": 42726
+    },
+    {
+      "path": "sources/gameplay/markers.png",
+      "sha256": "fdd7ba501bc00249b04f13e5b151a3f7959fa5879467753495c809d91e334fe4",
+      "bytes": 852041
+    },
+    {
+      "path": "sources/gameplay/menu.json",
+      "sha256": "34be8f6899f46e35c1b8be4a037f9cc9ba6e151d5711cc218c4cd8ebdd88cdf6",
+      "bytes": 42518
+    },
+    {
+      "path": "sources/gameplay/menu.png",
+      "sha256": "1a9b08cb44a76f5540adf2ed676decbd19c810b2304e60b0761839901eb1643e",
+      "bytes": 279396
+    },
+    {
+      "path": "sources/gameplay/night-off.json",
+      "sha256": "0dfa4e776fd9a57898971373e7f3ae2f047b904051e3d55222b68d1f3e6afbef",
+      "bytes": 40844
+    },
+    {
+      "path": "sources/gameplay/night-off.png",
+      "sha256": "54d0bad8a2c17b6c3ace3f25aa72ebc77fffc3010a3c5dd7d37e00cedc95a5aa",
+      "bytes": 444174
+    },
+    {
+      "path": "sources/gameplay/night-on.json",
+      "sha256": "b3ab9078e32ca0d13c52c785a7d03c10d0cf84de641cc765203c0fe374d00772",
+      "bytes": 40915
+    },
+    {
+      "path": "sources/gameplay/night-on.png",
+      "sha256": "0121baaf5b303de555c25f58a9c3c6f870b29774b8a3f577939d27bc05bdb71c",
+      "bytes": 977608
+    },
+    {
+      "path": "sources/gameplay/recording-check.png",
+      "sha256": "628f6bfcf57efbaf0032226b5ed60da022a50d45bfc84c2651edaf77da48f9bc",
+      "bytes": 688410
+    },
+    {
+      "path": "sources/gameplay/recording-final.json",
+      "sha256": "fc794c37b8150897700d6c63af133929b338f2eedeccaaa9ad6dc4c348f065e8",
+      "bytes": 41646
+    },
+    {
+      "path": "sources/gameplay/recording-final.png",
+      "sha256": "4a18fbb2441cf78d0a870a4652e6b963ace788dfc924a3f5756fb20c40ac5d2f",
+      "bytes": 851508
+    },
+    {
+      "path": "sources/gameplay/scene-check.json",
+      "sha256": "dfd4f4787d43b99fc49aca7559151a959cd8af9a9e48c21d7594730f577efddc",
+      "bytes": 41742
+    },
+    {
+      "path": "sources/gameplay/scene-check.png",
+      "sha256": "a64fda410945fb19f8d01d288aefb61667be171cf6a3683e3de8c466eb647d69",
+      "bytes": 723145
+    },
+    {
+      "path": "sources/gameplay/scene-setup.json",
+      "sha256": "bc2a996c8820977aa09cd14615ff2d5161c2813a0d732c63a648451b88cc15d8",
+      "bytes": 40804
+    },
+    {
+      "path": "sources/gameplay/sense.json",
+      "sha256": "8e30b01b43f729aa248b290f71362590ffefadecab27c355b5497f4755ff6665",
+      "bytes": 42619
+    },
+    {
+      "path": "sources/gameplay/sense.png",
+      "sha256": "c4b8016ed4532ad52cdecdd6571e4c38b686cc15ea437ca07d0770864c7d9224",
+      "bytes": 854158
+    }
+  ]
+}

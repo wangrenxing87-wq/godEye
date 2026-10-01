@@ -1,0 +1,71 @@
+{
+  "archive_sha256": "ebb30330b773ea365bf231f317dd9535f5e71b1c70022153d7417345f4f13f06",
+  "file_count": 26,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "per_file_sha256_matches": true,
+  "no_probe_or_bytecode": true,
+  "behavior_validation_errors": 0,
+  "resource_validation_errors": 0,
+  "validation_warning": "Existing manifest format 2 retained; documentation snapshot expects format 1.",
+  "python27_tests_passed": 50,
+  "python3_tests_passed": 50,
+  "menu_buttons": 13,
+  "removed_controls": [
+    "/panel/off",
+    "/panel/apply"
+  ],
+  "button_label_offset": [
+    8,
+    "20%"
+  ],
+  "disabled_option_controls": 5,
+  "texture_references_checked": 51,
+  "available_levels": {
+    "ore": [
+      4,
+      5,
+      6
+    ],
+    "entity": [
+      4,
+      5,
+      6
+    ],
+    "hidden": [
+      5,
+      6
+    ],
+    "enhancement": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "performance": [
+      4,
+      5,
+      6
+    ]
+  },
+  "verified_behavior": [
+    "levels, switches and range save without confirmation",
+    "Lv.0 stops abilities",
+    "ineligible options are gray and callback guarded",
+    "preferences survive unavailable levels",
+    "rapid clicks save latest settings",
+    "delayed replies preserve newer selections",
+    "queued saves survive closing and reopening the menu",
+    "save failures and timeout restore confirmed settings and allow retry",
+    "initial sync blocks edits"
+  ],
+  "menu_layout_gui_heights_checked": [
+    240,
+    300,
+    371
+  ],
+  "prior_text_clarity_and_launcher_drag_flags_preserved": true,
+  "native_visual_check_this_revision": false,
+  "native_note": "An existing Minecraft.Windows process was running; no restart or native input test was performed."
+}

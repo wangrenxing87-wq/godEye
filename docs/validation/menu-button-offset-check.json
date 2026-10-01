@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "8a1b4a67d5c26aaf07e5748e5ec23de5a14863e84f2da65cd02b8a8a23f35690",
+  "file_count": 25,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "menu_button_labels_shifted": 15,
+  "vertical_offset": "20%",
+  "only_menu_button_label_offsets_changed": true,
+  "native_visual_check_this_revision": false
+}

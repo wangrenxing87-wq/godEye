@@ -1,0 +1,123 @@
+{
+  "client": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "ore",
+        "count": 3,
+        "rare": true,
+        "pos": [
+          5.5,
+          -60.5,
+          0.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(5, -61, 0)"
+      },
+      {
+        "category": "spirit",
+        "entityId": "-30064771055",
+        "label": "灵体",
+        "id": "entity:-30064771055",
+        "pos": [
+          4.5,
+          -60.0,
+          4.5
+        ]
+      },
+      {
+        "category": "container",
+        "count": 1,
+        "id": "block:minecraft:chest:(8, -60, 0)",
+        "pos": [
+          8.5,
+          -59.5,
+          0.5
+        ],
+        "label": "箱子"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790772563.431,
+    "progress": [
+      128,
+      128
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x00000197F8E8DE80>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 225,
+    "enhancement_value": [
+      1.0666666666666667,
+      1.0666666666666667,
+      0.96
+    ],
+    "boards": 3,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 6,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 4,
+    "visual_notice": "",
+    "last_command": 1790772559.630283,
+    "command_result": null,
+    "dimension": 0
+  },
+  "server": {
+    "interests": 128,
+    "last_scan_cost_ms": 0.0,
+    "pos": [
+      0.5,
+      -60.0,
+      0.5
+    ],
+    "effects": [
+      {
+        "duration": 41,
+        "amplifier": 0,
+        "effectName": "night_vision",
+        "duration_f": 41.54999923706055
+      }
+    ],
+    "ready": true,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 6,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "saved_lease": {
+      "duration": 45,
+      "amplifier": 0,
+      "external_remaining": 0,
+      "external_amplifier": 0
+    },
+    "cache": 128,
+    "health": 20.0,
+    "revision": 2,
+    "dimension": 0,
+    "lease": {
+      "duration": 41,
+      "amplifier": 0,
+      "external_remaining": 0,
+      "external_amplifier": 0
+    }
+  }
+}

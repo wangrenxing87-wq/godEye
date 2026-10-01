@@ -1,0 +1,96 @@
+[
+  {
+    "at": 7.0054847999999765,
+    "action": "Lv.5 精确感知",
+    "client": {
+      "hud": true,
+      "entry_relative": null,
+      "registered": true,
+      "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000021EC59B89B0>",
+      "light": 0,
+      "ui_created": true,
+      "command_result": true,
+      "entry_events": [],
+      "dead": false,
+      "ready": true,
+      "enhancement_owned": true,
+      "enhancement_value": [
+        1.1,
+        1.1,
+        0.96
+      ],
+      "tick": 18510,
+      "entry_position": [
+        542.0,
+        28.0
+      ],
+      "root_size": [
+        640.0,
+        360.0
+      ],
+      "engine_dimension": 0,
+      "boards": 0,
+      "settings": {
+        "hidden_enabled": true,
+        "entity_enabled": true,
+        "level": 5,
+        "performance": "quality",
+        "ore_enabled": true,
+        "schema_version": 1,
+        "enhancement_enabled": true
+      },
+      "runtime_errors": {},
+      "menu": false,
+      "visual_notice": "",
+      "last_command": 1790785086.5389426,
+      "targets": [
+        {
+          "category": "spirit",
+          "entityId": "-77309411318",
+          "label": "灵体",
+          "id": "entity:-77309411318",
+          "pos": [
+            96.80220031738281,
+            -60.0,
+            11.890409469604492
+          ]
+        },
+        {
+          "category": "entrance",
+          "label": "遗迹入口",
+          "pos": [
+            94.5,
+            -59.0,
+            21.5
+          ],
+          "id": "godeye_demo:entrance"
+        },
+        {
+          "category": "quest",
+          "label": "探索目标",
+          "pos": [
+            96.5,
+            -59.0,
+            25.5
+          ],
+          "id": "godeye_demo:quest"
+        }
+      ],
+      "entry_visible": true,
+      "error": null,
+      "fps": 60.0775146484375,
+      "time": 1790785087.37,
+      "progress": [
+        0,
+        256
+      ],
+      "entry_size": [
+        88.0,
+        36.0
+      ],
+      "dimension": 0,
+      "pending": null,
+      "revision": 11
+    }
+  }
+]

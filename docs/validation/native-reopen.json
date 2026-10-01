@@ -1,0 +1,936 @@
+{
+  "before": {
+    "client": {
+      "dead": false,
+      "ui_created": true,
+      "ready": true,
+      "engine_dimension": 0,
+      "targets": [],
+      "error": null,
+      "menu": false,
+      "fps": 60.0775146484375,
+      "time": 1790772865.918,
+      "progress": [
+        0,
+        128
+      ],
+      "pending": null,
+      "revision": 3,
+      "hud": true,
+      "registered": true,
+      "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001E2C140E9B0>",
+      "runtime_errors": {},
+      "enhancement_owned": true,
+      "tick": 1890,
+      "enhancement_value": [
+        1.0,
+        1.0,
+        0.96
+      ],
+      "boards": 0,
+      "settings": {
+        "hidden_enabled": true,
+        "entity_enabled": true,
+        "level": 6,
+        "performance": "balanced",
+        "ore_enabled": true,
+        "schema_version": 1,
+        "enhancement_enabled": true
+      },
+      "light": 12,
+      "visual_notice": "",
+      "last_command": 1790772865.0383883,
+      "command_result": null,
+      "dimension": 0
+    },
+    "server": {
+      "error": null,
+      "initial_players": {
+        "-4294967295": {
+          "tick": 131,
+          "saved": {
+            "duration": 45,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "effect": [
+            {
+              "duration": 35,
+              "amplifier": 0,
+              "effectName": "night_vision",
+              "duration_f": 35.29999923706055
+            }
+          ],
+          "restored": {
+            "duration": 35,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          }
+        }
+      },
+      "tile_max_ms": 15.907900000000003,
+      "tile_count": 187,
+      "lease_trace": [
+        {
+          "current": {
+            "duration": 35,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 35.29999923706055
+          },
+          "kind": "maintain_before",
+          "tick": 131,
+          "now": 4.366666666666666,
+          "until": 39.36666666666667,
+          "owned": {
+            "duration": 35,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 35,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 35.29999923706055
+          },
+          "kind": "maintain_after",
+          "tick": 131,
+          "now": 4.366666666666666,
+          "until": 39.36666666666667,
+          "owned": {
+            "duration": 35,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "kind": "observe",
+          "tick": 136,
+          "amplifier": 0,
+          "owned": {
+            "duration": 35,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false,
+          "current": {
+            "duration": 35,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 35.25
+          },
+          "duration": 35,
+          "now": 4.533333333333333,
+          "until": 39.36666666666667
+        },
+        {
+          "current": {
+            "duration": 34,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 34.79999923706055
+          },
+          "kind": "maintain_before",
+          "tick": 150,
+          "now": 5.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 34,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 34.79999923706055
+          },
+          "kind": "maintain_after",
+          "tick": 150,
+          "now": 5.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 33,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 33.79999923706055
+          },
+          "kind": "maintain_before",
+          "tick": 180,
+          "now": 6.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 33,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 33.79999923706055
+          },
+          "kind": "maintain_after",
+          "tick": 180,
+          "now": 6.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 32,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 32.79999923706055
+          },
+          "kind": "maintain_before",
+          "tick": 210,
+          "now": 7.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 32,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 32.79999923706055
+          },
+          "kind": "maintain_after",
+          "tick": 210,
+          "now": 7.0,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "current": null,
+          "kind": "maintain_before",
+          "tick": 1907,
+          "now": 63.56666666666667,
+          "until": 0,
+          "owned": null,
+          "writing": false
+        },
+        {
+          "kind": "observe",
+          "tick": 1907,
+          "amplifier": 0,
+          "owned": null,
+          "writing": true,
+          "current": null,
+          "duration": 45,
+          "now": 63.56666666666667,
+          "until": 0
+        },
+        {
+          "current": {
+            "duration": 45,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 45.0
+          },
+          "kind": "maintain_after",
+          "tick": 1907,
+          "now": 63.56666666666667,
+          "until": 108.56666666666666,
+          "owned": {
+            "duration": 45,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.60000228881836
+          },
+          "kind": "maintain_before",
+          "tick": 1920,
+          "now": 64.0,
+          "until": 108.56666666666666,
+          "owned": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.60000228881836
+          },
+          "kind": "maintain_after",
+          "tick": 1920,
+          "now": 64.0,
+          "until": 108.56666666666666,
+          "owned": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        }
+      ],
+      "runtime_errors": {},
+      "tick": 1920,
+      "players": {
+        "-4294967295": {
+          "interests": 128,
+          "last_scan_cost_ms": 1.0001659393310547,
+          "pos": [
+            0.5,
+            -60.0,
+            0.5
+          ],
+          "effects": [
+            {
+              "duration": 44,
+              "amplifier": 0,
+              "effectName": "night_vision",
+              "duration_f": 44.60000228881836
+            }
+          ],
+          "ready": true,
+          "settings": {
+            "hidden_enabled": true,
+            "entity_enabled": true,
+            "level": 6,
+            "performance": "balanced",
+            "ore_enabled": true,
+            "schema_version": 1,
+            "enhancement_enabled": true
+          },
+          "saved_lease": {
+            "duration": 45,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "cache": 19,
+          "health": 20.0,
+          "revision": 3,
+          "dimension": 0,
+          "lease": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          }
+        }
+      },
+      "last_command": null,
+      "time": 1790772865.834,
+      "command_result": null,
+      "tile_p95_ms": 0.5674999999953911
+    }
+  },
+  "reopened": {
+    "client": {
+      "dead": false,
+      "ui_created": true,
+      "ready": true,
+      "engine_dimension": 0,
+      "targets": [
+        {
+          "category": "ore",
+          "count": 3,
+          "rare": true,
+          "pos": [
+            5.5,
+            -60.5,
+            0.5
+          ],
+          "label": "钻石矿",
+          "id": "ore:diamond:(5, -61, 0)"
+        },
+        {
+          "category": "container",
+          "count": 1,
+          "id": "block:minecraft:chest:(8, -60, 0)",
+          "pos": [
+            8.5,
+            -59.5,
+            0.5
+          ],
+          "label": "箱子"
+        }
+      ],
+      "error": null,
+      "menu": false,
+      "fps": 52.734371185302734,
+      "time": 1790772891.897,
+      "progress": [
+        87,
+        128
+      ],
+      "pending": null,
+      "revision": 1,
+      "hud": true,
+      "registered": true,
+      "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CA3E582F60>",
+      "runtime_errors": {},
+      "enhancement_owned": true,
+      "tick": 165,
+      "enhancement_value": [
+        1.0,
+        1.0,
+        0.96
+      ],
+      "boards": 2,
+      "settings": {
+        "hidden_enabled": true,
+        "entity_enabled": true,
+        "level": 6,
+        "performance": "balanced",
+        "ore_enabled": true,
+        "schema_version": 1,
+        "enhancement_enabled": true
+      },
+      "light": 12,
+      "visual_notice": "",
+      "last_command": null,
+      "command_result": null,
+      "dimension": 0
+    },
+    "server": {
+      "error": null,
+      "initial_players": {
+        "-4294967295": {
+          "tick": 128,
+          "saved": {
+            "duration": 45,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "effect": [
+            {
+              "duration": 44,
+              "amplifier": 0,
+              "effectName": "night_vision",
+              "duration_f": 44.25
+            }
+          ],
+          "restored": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          }
+        }
+      },
+      "tile_max_ms": 5.736000000000018,
+      "tile_count": 133,
+      "lease_trace": [
+        {
+          "current": {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.25
+          },
+          "kind": "maintain_before",
+          "tick": 128,
+          "now": 4.266666666666667,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.25
+          },
+          "kind": "maintain_after",
+          "tick": 128,
+          "now": 4.266666666666667,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "kind": "observe",
+          "tick": 133,
+          "amplifier": 0,
+          "owned": {
+            "duration": 44,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false,
+          "current": {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.20000076293945
+          },
+          "duration": 44,
+          "now": 4.433333333333334,
+          "until": 48.266666666666666
+        },
+        {
+          "current": {
+            "duration": 43,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 43.70000076293945
+          },
+          "kind": "maintain_before",
+          "tick": 150,
+          "now": 5.0,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 43,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 43,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 43.70000076293945
+          },
+          "kind": "maintain_after",
+          "tick": 150,
+          "now": 5.0,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 43,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 42,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 42.70000076293945
+          },
+          "kind": "maintain_before",
+          "tick": 180,
+          "now": 6.0,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 42,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        },
+        {
+          "current": {
+            "duration": 42,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 42.70000076293945
+          },
+          "kind": "maintain_after",
+          "tick": 180,
+          "now": 6.0,
+          "until": 48.266666666666666,
+          "owned": {
+            "duration": 42,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "writing": false
+        }
+      ],
+      "runtime_errors": {},
+      "tick": 195,
+      "players": {
+        "-4294967295": {
+          "interests": 128,
+          "last_scan_cost_ms": 0.0,
+          "pos": [
+            0.5,
+            -60.0,
+            0.5
+          ],
+          "effects": [
+            {
+              "duration": 42,
+              "amplifier": 0,
+              "effectName": "night_vision",
+              "duration_f": 42.20000076293945
+            }
+          ],
+          "ready": true,
+          "settings": {
+            "hidden_enabled": true,
+            "entity_enabled": true,
+            "level": 6,
+            "performance": "balanced",
+            "ore_enabled": true,
+            "schema_version": 1,
+            "enhancement_enabled": true
+          },
+          "saved_lease": {
+            "duration": 45,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          },
+          "cache": 101,
+          "health": 20.0,
+          "revision": 1,
+          "dimension": 0,
+          "lease": {
+            "duration": 42,
+            "amplifier": 0,
+            "external_remaining": 0,
+            "external_amplifier": 0
+          }
+        }
+      },
+      "last_command": null,
+      "time": 1790772891.855,
+      "command_result": null,
+      "tile_p95_ms": 0.7120000000000459
+    }
+  },
+  "disabled": {
+    "interests": 0,
+    "last_scan_cost_ms": 0.9999275207519531,
+    "pos": [
+      0.5,
+      -60.0,
+      0.5
+    ],
+    "effects": null,
+    "ready": true,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 0,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "saved_lease": null,
+    "cache": 0,
+    "health": 20.0,
+    "revision": 2,
+    "dimension": 0,
+    "lease": null
+  },
+  "after_disable_server": {
+    "error": null,
+    "initial_players": {
+      "-4294967295": {
+        "tick": 128,
+        "saved": {
+          "duration": 45,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "effect": [
+          {
+            "duration": 44,
+            "amplifier": 0,
+            "effectName": "night_vision",
+            "duration_f": 44.25
+          }
+        ],
+        "restored": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        }
+      }
+    },
+    "tile_max_ms": 5.736000000000018,
+    "tile_count": 165,
+    "lease_trace": [
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.25
+        },
+        "kind": "maintain_before",
+        "tick": 128,
+        "now": 4.266666666666667,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.25
+        },
+        "kind": "maintain_after",
+        "tick": 128,
+        "now": 4.266666666666667,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "kind": "observe",
+        "tick": 133,
+        "amplifier": 0,
+        "owned": {
+          "duration": 44,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false,
+        "current": {
+          "duration": 44,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 44.20000076293945
+        },
+        "duration": 44,
+        "now": 4.433333333333334,
+        "until": 48.266666666666666
+      },
+      {
+        "current": {
+          "duration": 43,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 43.70000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 150,
+        "now": 5.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 43,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 43,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 43.70000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 150,
+        "now": 5.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 43,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.70000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 180,
+        "now": 6.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 42,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 42.70000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 180,
+        "now": 6.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 42,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.70000076293945
+        },
+        "kind": "maintain_before",
+        "tick": 210,
+        "now": 7.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      },
+      {
+        "current": {
+          "duration": 41,
+          "amplifier": 0,
+          "effectName": "night_vision",
+          "duration_f": 41.70000076293945
+        },
+        "kind": "maintain_after",
+        "tick": 210,
+        "now": 7.0,
+        "until": 48.266666666666666,
+        "owned": {
+          "duration": 41,
+          "amplifier": 0,
+          "external_remaining": 0,
+          "external_amplifier": 0
+        },
+        "writing": false
+      }
+    ],
+    "runtime_errors": {},
+    "tick": 225,
+    "players": {
+      "-4294967295": {
+        "interests": 0,
+        "last_scan_cost_ms": 0.9999275207519531,
+        "pos": [
+          0.5,
+          -60.0,
+          0.5
+        ],
+        "effects": null,
+        "ready": true,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 0,
+          "performance": "balanced",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "saved_lease": null,
+        "cache": 0,
+        "health": 20.0,
+        "revision": 2,
+        "dimension": 0,
+        "lease": null
+      }
+    },
+    "last_command": null,
+    "time": 1790772892.854,
+    "command_result": null,
+    "tile_p95_ms": 0.5387000000001141
+  },
+  "external_after_disable": {
+    "interests": 0,
+    "last_scan_cost_ms": 0.0,
+    "pos": [
+      0.5,
+      -60.0,
+      0.5
+    ],
+    "effects": [
+      {
+        "duration": 178,
+        "amplifier": 0,
+        "effectName": "night_vision",
+        "duration_f": 178.0
+      }
+    ],
+    "ready": true,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 0,
+      "performance": "balanced",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "saved_lease": null,
+    "cache": 0,
+    "health": 20.0,
+    "revision": 4,
+    "dimension": 0,
+    "lease": null
+  },
+  "complete": true
+}

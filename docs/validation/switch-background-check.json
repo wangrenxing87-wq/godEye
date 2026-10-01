@@ -1,0 +1,28 @@
+{
+  "archive_sha256": "1a263642499473364535f5fd120096c3a89442126cb1624d7f76638b682464cb",
+  "file_count": 26,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "per_file_sha256_matches": true,
+  "no_probe_or_bytecode": true,
+  "python27_tests_passed": 50,
+  "python3_tests_passed": 50,
+  "behavior_validation_errors": 0,
+  "resource_validation_errors": 0,
+  "validation_warning": "Existing manifest format 2 retained; documentation snapshot expects format 1.",
+  "disabled_switch_text": "[OFF] (Chinese)",
+  "disabled_range_text": "Range: inactive (Chinese)",
+  "default_states_gray_and_off": true,
+  "disabled_overlay_removed": true,
+  "disabled_default_hover_pressed_textures_match": true,
+  "enabled_switch_on_off_backgrounds_distinct": true,
+  "seven_level_input_guards_verified": true,
+  "menu_buttons": 13,
+  "button_label_offset": [
+    8,
+    "20%"
+  ],
+  "text_clarity_and_drag_flags_preserved": true,
+  "native_visual_check_this_revision": false,
+  "native_note": "Existing game was not displaying the settings menu; no restart or native interaction performed."
+}

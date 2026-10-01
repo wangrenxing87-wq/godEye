@@ -1,0 +1,1907 @@
+{
+  "namespace": "mercuryx_godeye",
+  "hud@common.base_screen": {
+    "is_showing_menu": false,
+    "absorbs_input": false,
+    "controls": [
+      {
+        "root": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "entry": {
+                "type": "button",
+                "size": [
+                  88,
+                  36
+                ],
+                "offset": [
+                  -10,
+                  28
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "is_handle_button_move_event": true,
+                "layer": 20,
+                "default_control": "default",
+                "hover_control": "hover",
+                "pressed_control": "pressed",
+                "button_mappings": [],
+                "controls": [
+                  {
+                    "default": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/entry",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "hover": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/entry_hover",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "pressed": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/entry_pressed",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "eye": {
+                      "type": "image",
+                      "size": [
+                        26,
+                        26
+                      ],
+                      "offset": [
+                        5,
+                        5
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/eye",
+                      "layer": 3
+                    }
+                  },
+                  {
+                    "label": {
+                      "type": "label",
+                      "size": [
+                        38,
+                        14
+                      ],
+                      "offset": [
+                        35,
+                        5
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "天眼",
+                      "color": [
+                        0.87,
+                        0.99,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "level": {
+                      "type": "label",
+                      "size": [
+                        38,
+                        14
+                      ],
+                      "offset": [
+                        35,
+                        20
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "LV.0",
+                      "color": [
+                        0.62,
+                        0.93,
+                        0.96
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "grip": {
+                      "type": "image",
+                      "size": [
+                        6,
+                        14
+                      ],
+                      "offset": [
+                        77,
+                        11
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/grip",
+                      "layer": 3
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "radar": {
+                "type": "panel",
+                "size": [
+                  252,
+                  176
+                ],
+                "offset": [
+                  8,
+                  59
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "bg": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/radar",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "status": {
+                      "type": "label",
+                      "size": [
+                        236,
+                        20
+                      ],
+                      "offset": [
+                        8,
+                        6
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "探测中",
+                      "color": [
+                        0.8,
+                        0.97,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "target0": {
+                      "type": "label",
+                      "size": [
+                        236,
+                        34
+                      ],
+                      "offset": [
+                        8,
+                        32
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "",
+                      "color": [
+                        0.96,
+                        0.98,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "target1": {
+                      "type": "label",
+                      "size": [
+                        236,
+                        34
+                      ],
+                      "offset": [
+                        8,
+                        68
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "",
+                      "color": [
+                        0.96,
+                        0.98,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "target2": {
+                      "type": "label",
+                      "size": [
+                        236,
+                        34
+                      ],
+                      "offset": [
+                        8,
+                        104
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "",
+                      "color": [
+                        0.96,
+                        0.98,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "target3": {
+                      "type": "label",
+                      "size": [
+                        236,
+                        34
+                      ],
+                      "offset": [
+                        8,
+                        140
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "text": "",
+                      "color": [
+                        0.96,
+                        0.98,
+                        1.0
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": true,
+                      "layer": 5
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "menu@common.base_screen": {
+    "is_showing_menu": true,
+    "absorbs_input": true,
+    "render_game_behind": true,
+    "controls": [
+      {
+        "panel": {
+          "type": "panel",
+          "size": [
+            "92%",
+            "92%"
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "controls": [
+            {
+              "bg": {
+                "type": "image",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "texture": "textures/ui/mercuryx_godeye/panel",
+                "nineslice_size": 4,
+                "layer": 0
+              }
+            },
+            {
+              "title": {
+                "type": "label",
+                "size": [
+                  "64%",
+                  22
+                ],
+                "offset": [
+                  14,
+                  8
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "text": "天眼  /  GOD EYE",
+                "color": [
+                  0.86,
+                  0.92,
+                  0.98
+                ],
+                "font_size": "normal",
+                "font_scale_factor": 1.2,
+                "text_alignment": "left",
+                "shadow": false,
+                "layer": 5
+              }
+            },
+            {
+              "close": {
+                "type": "button",
+                "size": [
+                  44,
+                  24
+                ],
+                "offset": [
+                  -10,
+                  7
+                ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "default_control": "default",
+                "hover_control": "hover",
+                "pressed_control": "pressed",
+                "button_mappings": [],
+                "controls": [
+                  {
+                    "default": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/button",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "hover": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/hover",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "pressed": {
+                      "type": "image",
+                      "size": [
+                        "100%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "texture": "textures/ui/mercuryx_godeye/accent",
+                      "nineslice_size": 4,
+                      "layer": 0
+                    }
+                  },
+                  {
+                    "label": {
+                      "type": "label",
+                      "size": [
+                        "100%-16px",
+                        16
+                      ],
+                      "offset": [
+                        8,
+                        "20%"
+                      ],
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "text": "关闭",
+                      "color": [
+                        0.86,
+                        0.92,
+                        0.98
+                      ],
+                      "font_size": "normal",
+                      "font_scale_factor": 1.0,
+                      "text_alignment": "left",
+                      "shadow": false,
+                      "layer": 5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "current": {
+                "type": "label",
+                "size": [
+                  "75%",
+                  18
+                ],
+                "offset": [
+                  14,
+                  32
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "text": "当前：凡人",
+                "color": [
+                  0.8,
+                  0.97,
+                  1.0
+                ],
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "text_alignment": "left",
+                "shadow": true,
+                "layer": 5,
+                "font_type": "smooth"
+              }
+            },
+            {
+              "body": {
+                "type": "panel",
+                "size": [
+                  "100%-28px",
+                  "100%-88px"
+                ],
+                "offset": [
+                  14,
+                  56
+                ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "levels": {
+                      "type": "panel",
+                      "size": [
+                        "41%",
+                        "100%"
+                      ],
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "controls": [
+                        {
+                          "lv0": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "0.0%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.0  凡人",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv1": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "14.2%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.1  微光",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv2": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "28.4%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.2  夜瞳",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv3": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "42.599999999999994%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.3  幽视",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv4": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "56.8%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.4  灵视",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv5": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "71.0%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.5  天眼",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "lv6": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "13.4%"
+                            ],
+                            "offset": [
+                              0,
+                              "85.19999999999999%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/hover",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/accent",
+                                  "nineslice_size": 4,
+                                  "layer": 0
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "Lv.6  真·夜瞳",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "detail": {
+                      "type": "panel",
+                      "size": [
+                        "54%",
+                        "100%"
+                      ],
+                      "offset": [
+                        "46%",
+                        0
+                      ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "controls": [
+                        {
+                          "name": {
+                            "type": "label",
+                            "size": [
+                              "100%",
+                              20
+                            ],
+                            "offset": [
+                              0,
+                              0
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "text": "夜瞳",
+                            "color": [
+                              0.86,
+                              0.92,
+                              0.98
+                            ],
+                            "font_size": "normal",
+                            "font_scale_factor": 1.3,
+                            "text_alignment": "left",
+                            "shadow": false,
+                            "layer": 5
+                          }
+                        },
+                        {
+                          "description": {
+                            "type": "label",
+                            "size": [
+                              "100%",
+                              "20%"
+                            ],
+                            "offset": [
+                              0,
+                              24
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "text": "持续夜视，看清夜晚与洞穴。",
+                            "color": [
+                              0.96,
+                              0.98,
+                              1.0
+                            ],
+                            "font_size": "normal",
+                            "font_scale_factor": 1.0,
+                            "text_alignment": "left",
+                            "shadow": true,
+                            "layer": 5
+                          }
+                        },
+                        {
+                          "ore": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "12%"
+                            ],
+                            "offset": [
+                              0,
+                              "32.0%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "§7[关] 矿脉感知",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "entity": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "12%"
+                            ],
+                            "offset": [
+                              0,
+                              "45.5%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "§7[关] 特殊生命",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hidden": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "12%"
+                            ],
+                            "offset": [
+                              0,
+                              "59.0%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "§7[关] 隐藏目标",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "enhancement": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "12%"
+                            ],
+                            "offset": [
+                              0,
+                              "72.5%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "§7[关] 画面增强",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "performance": {
+                            "type": "button",
+                            "size": [
+                              "100%",
+                              "12%"
+                            ],
+                            "offset": [
+                              0,
+                              "86.0%"
+                            ],
+                            "anchor_from": "top_left",
+                            "anchor_to": "top_left",
+                            "default_control": "default",
+                            "hover_control": "hover",
+                            "pressed_control": "pressed",
+                            "button_mappings": [],
+                            "controls": [
+                              {
+                                "default": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "hover": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "pressed": {
+                                  "type": "image",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ],
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "anchor_from": "top_left",
+                                  "anchor_to": "top_left",
+                                  "texture": "textures/ui/mercuryx_godeye/button",
+                                  "nineslice_size": 4,
+                                  "layer": 0,
+                                  "grayscale": true
+                                }
+                              },
+                              {
+                                "label": {
+                                  "type": "label",
+                                  "size": [
+                                    "100%-16px",
+                                    16
+                                  ],
+                                  "offset": [
+                                    8,
+                                    "20%"
+                                  ],
+                                  "anchor_from": "left_middle",
+                                  "anchor_to": "left_middle",
+                                  "text": "§7范围：未启用",
+                                  "color": [
+                                    0.86,
+                                    0.92,
+                                    0.98
+                                  ],
+                                  "font_size": "normal",
+                                  "font_scale_factor": 1.0,
+                                  "text_alignment": "left",
+                                  "shadow": false,
+                                  "layer": 5
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "notice": {
+                "type": "label",
+                "size": [
+                  "100%-28px",
+                  20
+                ],
+                "offset": [
+                  14,
+                  -5
+                ],
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "text": "设置随世界保存",
+                "color": [
+                  0.95,
+                  0.97,
+                  1.0
+                ],
+                "font_size": "normal",
+                "font_scale_factor": 1.0,
+                "text_alignment": "left",
+                "shadow": true,
+                "layer": 5,
+                "font_type": "smooth"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "archive_sha256": "b6ef68e1166c2f0fa3b0390fac7cec755eeccc339379bdaf4b5b2e51f5698687",
+  "file_count": 25,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "probe_in_archive": false,
+  "python27_tests_passed": 43,
+  "python3_tests_passed": 43,
+  "static_validation_errors": 0,
+  "checked_target_counts": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "hud_font_scale": 1.0,
+  "native_visual_check_this_revision": false
+}

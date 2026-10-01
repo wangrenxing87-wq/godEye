@@ -1,0 +1,72 @@
+{
+  "method": "Windows native game rendered at phone landscape resolutions",
+  "android_touch_or_performance_test": false,
+  "label": "lv0",
+  "window_restored": true,
+  "captures": [
+    {
+      "size": [
+        854,
+        480
+      ],
+      "image": "lv0-854x480.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        960,
+        540
+      ],
+      "image": "lv0-960x540.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "image": "lv0-1280x720.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "lv0-1920x1080.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        1560,
+        720
+      ],
+      "image": "lv0-1560x720.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        1600,
+        720
+      ],
+      "image": "lv0-1600x720.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        2340,
+        1080
+      ],
+      "image": "lv0-2340x1080.png",
+      "native_capture": true
+    },
+    {
+      "size": [
+        2400,
+        1080
+      ],
+      "image": "lv0-2400x1080.png",
+      "native_capture": true
+    }
+  ]
+}

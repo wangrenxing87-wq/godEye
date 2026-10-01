@@ -1,0 +1,905 @@
+{
+  "native_blocks": {
+    "ids": [
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:redstone_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:lapis_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore"
+    ],
+    "blocks": [
+      {
+        "aux": 0,
+        "name": "minecraft:coal_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_coal_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:copper_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_copper_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:iron_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_iron_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:gold_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_gold_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:diamond_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_diamond_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:redstone_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_redstone_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:lapis_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_lapis_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:emerald_ore"
+      },
+      {
+        "aux": 0,
+        "name": "minecraft:deepslate_emerald_ore"
+      }
+    ]
+  },
+  "all_normal_and_deepslate_groups": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          100.5
+        ],
+        "label": "煤矿",
+        "id": "ore:coal:(104, -61, 100)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          102.5
+        ],
+        "label": "铜矿",
+        "id": "ore:copper:(104, -61, 102)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          104.5
+        ],
+        "label": "铁矿",
+        "id": "ore:iron:(104, -61, 104)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          106.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(104, -61, 106)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          108.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(104, -61, 108)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          110.5
+        ],
+        "label": "红石矿",
+        "id": "ore:redstone:(104, -61, 110)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          112.5
+        ],
+        "label": "青金石矿",
+        "id": "ore:lapis:(104, -61, 112)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          114.5
+        ],
+        "label": "绿宝石矿",
+        "id": "ore:emerald:(104, -61, 114)"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773798.673,
+    "progress": [
+      30,
+      265
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 780,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773797.2259648,
+    "command_result": null,
+    "dimension": 0
+  },
+  "entrance": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "entrance",
+        "label": "验收任务目标",
+        "pos": [
+          101.5,
+          -60.0,
+          101.5
+        ],
+        "id": "godeye_test:entrance"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          100.5
+        ],
+        "label": "煤矿",
+        "id": "ore:coal:(104, -61, 100)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          102.5
+        ],
+        "label": "铜矿",
+        "id": "ore:copper:(104, -61, 102)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          104.5
+        ],
+        "label": "铁矿",
+        "id": "ore:iron:(104, -61, 104)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          106.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(104, -61, 106)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          108.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(104, -61, 108)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          110.5
+        ],
+        "label": "红石矿",
+        "id": "ore:redstone:(104, -61, 110)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          112.5
+        ],
+        "label": "青金石矿",
+        "id": "ore:lapis:(104, -61, 112)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          114.5
+        ],
+        "label": "绿宝石矿",
+        "id": "ore:emerald:(104, -61, 114)"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773799.676,
+    "progress": [
+      82,
+      265
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 810,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773797.2259648,
+    "command_result": null,
+    "dimension": 0
+  },
+  "mechanism": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "mechanism",
+        "label": "验收任务目标",
+        "pos": [
+          101.5,
+          -60.0,
+          101.5
+        ],
+        "id": "godeye_test:mechanism"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          100.5
+        ],
+        "label": "煤矿",
+        "id": "ore:coal:(104, -61, 100)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          102.5
+        ],
+        "label": "铜矿",
+        "id": "ore:copper:(104, -61, 102)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          104.5
+        ],
+        "label": "铁矿",
+        "id": "ore:iron:(104, -61, 104)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          106.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(104, -61, 106)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          108.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(104, -61, 108)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          110.5
+        ],
+        "label": "红石矿",
+        "id": "ore:redstone:(104, -61, 110)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          112.5
+        ],
+        "label": "青金石矿",
+        "id": "ore:lapis:(104, -61, 112)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          114.5
+        ],
+        "label": "绿宝石矿",
+        "id": "ore:emerald:(104, -61, 114)"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773801.674,
+    "progress": [
+      178,
+      265
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 870,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773797.2259648,
+    "command_result": null,
+    "dimension": 0
+  },
+  "quest": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "quest",
+        "label": "验收任务目标",
+        "pos": [
+          101.5,
+          -60.0,
+          101.5
+        ],
+        "id": "godeye_test:quest"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          100.5
+        ],
+        "label": "煤矿",
+        "id": "ore:coal:(104, -61, 100)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          102.5
+        ],
+        "label": "铜矿",
+        "id": "ore:copper:(104, -61, 102)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          104.5
+        ],
+        "label": "铁矿",
+        "id": "ore:iron:(104, -61, 104)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          106.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(104, -61, 106)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          108.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(104, -61, 108)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          110.5
+        ],
+        "label": "红石矿",
+        "id": "ore:redstone:(104, -61, 110)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          112.5
+        ],
+        "label": "青金石矿",
+        "id": "ore:lapis:(104, -61, 112)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          114.5
+        ],
+        "label": "绿宝石矿",
+        "id": "ore:emerald:(104, -61, 114)"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773803.673,
+    "progress": [
+      265,
+      265
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 930,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773797.2259648,
+    "command_result": null,
+    "dimension": 0
+  },
+  "private_target_not_disclosed": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          100.5
+        ],
+        "label": "煤矿",
+        "id": "ore:coal:(104, -61, 100)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          102.5
+        ],
+        "label": "铜矿",
+        "id": "ore:copper:(104, -61, 102)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          104.5
+        ],
+        "label": "铁矿",
+        "id": "ore:iron:(104, -61, 104)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          106.5
+        ],
+        "label": "金矿",
+        "id": "ore:gold:(104, -61, 106)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          108.5
+        ],
+        "label": "钻石矿",
+        "id": "ore:diamond:(104, -61, 108)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": false,
+        "pos": [
+          104.5,
+          -60.5,
+          110.5
+        ],
+        "label": "红石矿",
+        "id": "ore:redstone:(104, -61, 110)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          112.5
+        ],
+        "label": "青金石矿",
+        "id": "ore:lapis:(104, -61, 112)"
+      },
+      {
+        "category": "ore",
+        "count": 2,
+        "rare": true,
+        "pos": [
+          104.5,
+          -60.5,
+          114.5
+        ],
+        "label": "绿宝石矿",
+        "id": "ore:emerald:(104, -61, 114)"
+      }
+    ],
+    "error": null,
+    "menu": false,
+    "fps": 60.0775146484375,
+    "time": 1790773807.173,
+    "progress": [
+      265,
+      265
+    ],
+    "pending": null,
+    "revision": 2,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 1035,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 5,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773797.2259648,
+    "command_result": null,
+    "dimension": 0
+  },
+  "end": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 2,
+    "targets": [],
+    "error": null,
+    "menu": false,
+    "fps": 52.63157272338867,
+    "time": 1790773809.675,
+    "progress": [
+      0,
+      424
+    ],
+    "pending": null,
+    "revision": 4,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x0000017974C29A90>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 1110,
+    "enhancement_value": [
+      1.1,
+      1.1,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 6,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 0,
+    "visual_notice": "",
+    "last_command": 1790773807.6760607,
+    "command_result": null,
+    "dimension": 2
+  },
+  "return": {
+    "dead": false,
+    "ui_created": true,
+    "ready": true,
+    "engine_dimension": 0,
+    "targets": [],
+    "error": null,
+    "menu": false,
+    "fps": 59.171592712402344,
+    "time": 1790773813.25,
+    "progress": [
+      0,
+      0
+    ],
+    "pending": null,
+    "revision": 6,
+    "hud": true,
+    "registered": true,
+    "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001798B622E10>",
+    "runtime_errors": {},
+    "enhancement_owned": true,
+    "tick": 1215,
+    "enhancement_value": [
+      1.0,
+      1.0,
+      0.96
+    ],
+    "boards": 0,
+    "settings": {
+      "hidden_enabled": true,
+      "entity_enabled": true,
+      "level": 6,
+      "performance": "quality",
+      "ore_enabled": true,
+      "schema_version": 1,
+      "enhancement_enabled": true
+    },
+    "light": 12,
+    "visual_notice": "",
+    "last_command": 1790773807.6760607,
+    "command_result": null,
+    "dimension": 0
+  },
+  "complete": true
+}

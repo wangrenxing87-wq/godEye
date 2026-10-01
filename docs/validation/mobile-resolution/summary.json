@@ -1,0 +1,281 @@
+{
+  "date": "2026-09-30",
+  "native_capture_count": 24,
+  "resolution_count": 8,
+  "platform": "Windows development client with touch simulation layout",
+  "android_device_connected": false,
+  "android_touch_verified": false,
+  "mobile_performance_verified": false,
+  "runtime_pack_changed": false,
+  "archive_sha256": "4a27ab300ecc51cdd1f2ed73e51218bb2c24daddc6d8e46a147b6a22e7346356",
+  "native_gray_background_fix_verified": true,
+  "findings": [
+    {
+      "id": "small_text_480p",
+      "status": "open",
+      "severity": "medium",
+      "resolution": [
+        854,
+        480
+      ]
+    },
+    {
+      "id": "empty_hud_background_overlaps_direction_controls",
+      "status": "open",
+      "severity": "high",
+      "evidence": "hud6-1280x720.png",
+      "touch_interception_verified": false
+    }
+  ],
+  "settings_layout_result": "No mod control overlap or clipped descriptions observed at 960x540 and larger tested sizes.",
+  "restored": {
+    "window_client_size": [
+      986,
+      470
+    ],
+    "level": 0,
+    "performance": "economy"
+  },
+  "captures": [
+    {
+      "size": [
+        854,
+        480
+      ],
+      "image": "lv0-854x480.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "d1231602016d76811981125a0699bf39bcda6b9601357a01435dcbc47ddf0d80"
+    },
+    {
+      "size": [
+        960,
+        540
+      ],
+      "image": "lv0-960x540.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "0ba6cfb5874a7e202a96d63559df5cc41d1b33abdb56266d43fbd579dac5cc05"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "image": "lv0-1280x720.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "122ff5b5826a3111e2cdcd8af4bf3313be9f495b9404544a0c485e32903a0159"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "lv0-1920x1080.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "6c3270526ad36cb9b34ca1e599670d34d668fbdaedbca1f93043f4b341d96875"
+    },
+    {
+      "size": [
+        1560,
+        720
+      ],
+      "image": "lv0-1560x720.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "eb7c3e489971ff40083e38a3558a8ffa6fe12edb830070150ab66fcaa5b079c7"
+    },
+    {
+      "size": [
+        1600,
+        720
+      ],
+      "image": "lv0-1600x720.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "9157539a86aa7caa6afe7a55d7999110694edc87a35b198bc40d461b3443e30e"
+    },
+    {
+      "size": [
+        2340,
+        1080
+      ],
+      "image": "lv0-2340x1080.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "2d7f57586e75fcf73096878992c3647b46a40f19498aed9781813d1f2064a83b"
+    },
+    {
+      "size": [
+        2400,
+        1080
+      ],
+      "image": "lv0-2400x1080.png",
+      "native_capture": true,
+      "stage": "lv0",
+      "sha256": "002e863e8690a8dfe3895b7a0595fa05fd45acd5c2417baf54fa784b4cffd207"
+    },
+    {
+      "size": [
+        854,
+        480
+      ],
+      "image": "lv5-854x480.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "b1fb9d0d33c6098925b44b6175ee080a07497771726fae38cc19a4be8fb5d96d"
+    },
+    {
+      "size": [
+        960,
+        540
+      ],
+      "image": "lv5-960x540.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "4bab631f891d6d309e953e62aaa017de604e80e88084e8112804861de96ab20b"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "image": "lv5-1280x720.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "356aef9a90ba0204029a2528ae2a1363f04be58c9359329d97521b3fdf5e8a59"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "lv5-1920x1080.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "ba052cbddee280d76e16fec36a3d46dd401788028f3c345db3a09e9c40535afe"
+    },
+    {
+      "size": [
+        1560,
+        720
+      ],
+      "image": "lv5-1560x720.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "98be004a34dd2cc9b4b55350fac39abb24f52938c96c5c76ec989fed1aa901f7"
+    },
+    {
+      "size": [
+        1600,
+        720
+      ],
+      "image": "lv5-1600x720.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "a31f9e730d7eba8ea5923a05550eb1b2ebe550546169be6abc09ea828aad9b40"
+    },
+    {
+      "size": [
+        2340,
+        1080
+      ],
+      "image": "lv5-2340x1080.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "6894fb9a435fd3366326abddfed76f53a10d27061a773bbe2a07d14c08014393"
+    },
+    {
+      "size": [
+        2400,
+        1080
+      ],
+      "image": "lv5-2400x1080.png",
+      "native_capture": true,
+      "stage": "lv5",
+      "sha256": "df4f6e53a223392b9cdfa6334b65ae03b5dce9b0758354b7b2aa9dfabd44caee"
+    },
+    {
+      "size": [
+        854,
+        480
+      ],
+      "image": "hud6-854x480.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "9282ed68f8318d5bfd773b50fec8754076008fb3b1d8f3a87143035363752058"
+    },
+    {
+      "size": [
+        960,
+        540
+      ],
+      "image": "hud6-960x540.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "ddcbe96d6f63b182dbe713054dd6e6c887bf86447660ebf4050b5f9d8d6fd46f"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "image": "hud6-1280x720.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "994d1b99a5fe6502d6dc898efcc2f5f38230d6f2f5a150b848df6801d4be73f5"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "image": "hud6-1920x1080.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "b1bdad56992a93029cc9dfe2ecb54af441099d91a3fcf70b6a59dcf3658db30d"
+    },
+    {
+      "size": [
+        1560,
+        720
+      ],
+      "image": "hud6-1560x720.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "2899651751162b0bd0de5afc23090144278b6bc87f4afdaf35641949cd24fa36"
+    },
+    {
+      "size": [
+        1600,
+        720
+      ],
+      "image": "hud6-1600x720.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "e87096caac55562495851f6fece7d3a46a4e6f1a2a6130cbcac71d9cbb121cc3"
+    },
+    {
+      "size": [
+        2340,
+        1080
+      ],
+      "image": "hud6-2340x1080.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "834028bee12223cc0461ca14b09ef6783b57fd3076dbbebbc4a56f6e11c6ccc5"
+    },
+    {
+      "size": [
+        2400,
+        1080
+      ],
+      "image": "hud6-2400x1080.png",
+      "native_capture": true,
+      "stage": "hud6",
+      "sha256": "4ceb5f1c7eb68bc4c3257455d8e077eecdb6ff13f412be8f2bd8a1af0c83ca13"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-01",
+  "archive": "GodEye-1.0.0-review.zip",
+  "sha256": "4a27ab300ecc51cdd1f2ed73e51218bb2c24daddc6d8e46a147b6a22e7346356",
+  "crc_passed": true,
+  "imported_runtime_files_match": true,
+  "files": [
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/__init__.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/client_system.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/config.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/core.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/effects.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/modMain.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/scanner.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/server_system.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/ui.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/manifest.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/pack_icon.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/manifest.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/pack_icon.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/accent.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/button.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_hover.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_pressed.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/eye.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/grip.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/hover.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/panel.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/radar.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/ui/_ui_defs.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/ui/mercuryx_godeye.json",
+      "matches_imported_file": true
+    }
+  ],
+  "environment": "Windows 3.10.0.420447 / RenderDragon",
+  "component_uuid": "e34ded90419045b68c8461d14cdb5edb",
+  "python_script_enabled_in_imported_studio_config": true,
+  "probe_in_package": false,
+  "observed": [
+    "独立新建测试世界，G键打开天眼设置",
+    "Lv.0四分类置灰且显示关，范围未启用",
+    "实际鼠标点击Lv.6，当前等级变为真·夜瞳，四项恢复开启状态",
+    "关闭设置返回世界HUD"
+  ],
+  "evidence": [
+    "import-menu.png",
+    "import-level6.png",
+    "import-hud.png"
+  ],
+  "scope": "仅当前复核ZIP的桌面导入与界面冒烟检查，不是手机、多人、1.18.0运行或正式命名空间验收",
+  "release_namespace_contract_passed": false
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "date": "2026-10-01",
+  "sha256": "fcacab1c6f19d358acc391a7ee4fcd3072ea46d44696c92158c9f14e028deb7f",
+  "header_and_module_uuids": [
+    "7f2753ea-bb6b-4292-8192-a93944e663c1",
+    "465f1381-0758-4520-9f87-9d8c2b1974a3",
+    "773fe205-7e4a-4551-9e1b-dcb80358ed6a",
+    "55ef3174-b49f-479e-babf-a4e613cea219"
+  ],
+  "unique_uuid_v4_count": 4,
+  "dependencies_resolved": true,
+  "old_uuid_absent_from_runtime_manifests": true,
+  "zip_crc_passed": true,
+  "archive_matches_source": true,
+  "zip_and_mcaddon_identical": true,
+  "changed_runtime_files": [
+    "behavior_pack_qbUAm8gp/manifest.json",
+    "resource_pack_F1LzIf84/manifest.json"
+  ],
+  "unchanged_runtime_files": 23
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>天眼 · 手机分辨率实测</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#0d1726;color:#e5eff6;font:16px/1.7 system-ui,sans-serif}
+  main{max-width:1440px;margin:auto;padding:24px}h1{margin:0 0 8px;font-size:26px}p{margin:8px 0 18px}
+  .note{color:#b9ccd8}.findings{padding:12px 18px;background:#1b2b3b;border-left:3px solid #62d8e6}
+  .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:22px 0 12px}
+  select{background:#1c2d40;color:#e5eff6;padding:8px;border:1px solid #557485;border-radius:5px;font-size:16px}
+  a{color:#80e4e9}figure{margin:0;overflow:auto;background:#080d16;border:1px solid #334b5f;padding:6px}
+  img{display:block;width:100%;height:auto}.pixels img{width:auto;max-width:none}#caption{color:#c1d3df}
+</style>
+<main>
+  <h1>天眼 · 手机横屏分辨率实测</h1>
+  <p class="note">2026-09-30 · 8 种尺寸 × 3 个界面 · 原生游戏截图。使用 Windows 开发客户端与触控模拟布局；未测试真实手机触控或性能。</p>
+  <p class="findings">凡人等级的灰色背景已正常。设置页在本次 960×540 及更高尺寸下布局完整；854×480 字体过小。HUD 无目标时仍有过大的空白背景，与方向键区域重叠。</p>
+  <div class="toolbar">
+    <label>界面 <select id="stage"><option value="lv0">凡人 · 全部关闭</option><option value="lv5">天眼 · 开启状态</option><option value="hud6">主界面 · Lv.6</option></select></label>
+    <label>分辨率 <select id="size"></select></label>
+    <label><input type="checkbox" id="pixels"> 按原始像素显示</label>
+    <a id="original" target="_blank" rel="noopener">打开原图</a>
+    <a href="../../mobile-resolution-report.md">完整记录</a>
+  </div>
+  <p id="caption" aria-live="polite"></p>
+  <figure id="viewport"><img id="screen" alt="天眼原生界面截图"></figure>
+  <p class="note">默认缩放以适应浏览器宽度；评估小字时请勾选“按原始像素显示”。灰白色列表图标是开发客户端调试入口。</p>
+</main>
+<script>
+  const sizes=['854x480','960x540','1280x720','1920x1080','1560x720','1600x720','2340x1080','2400x1080'];
+  const size=document.querySelector('#size'),stage=document.querySelector('#stage'),pixels=document.querySelector('#pixels');
+  for(const value of sizes){const option=document.createElement('option');option.value=value;option.textContent=value.replace('x',' × ');size.append(option)}
+  size.value='1280x720';
+  function update(){
+    const path=stage.value+'-'+size.value+'.png';
+    document.querySelector('#screen').src=path;document.querySelector('#original').href=path;
+    document.querySelector('#viewport').classList.toggle('pixels',pixels.checked);
+    document.querySelector('#caption').textContent=stage.selectedOptions[0].text+' · '+size.selectedOptions[0].text+(size.value==='854x480'?' · 注意：文字偏小':'')+(stage.value==='hud6'?' · 注意：空白背景过大':'');
+  }
+  for(const control of [size,stage,pixels])control.addEventListener('change',update);
+  update();
+</script>
+</html>

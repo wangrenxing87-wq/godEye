@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "2c1529c3b1fcacda6197de37ca1546782ee1785da9b5e8cfbb78825b189e58f5",
+  "file_count": 25,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "all_ui_textures_present": true,
+  "probe_in_archive": false,
+  "native_button_move_enabled": true
+}

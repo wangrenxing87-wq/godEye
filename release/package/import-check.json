@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-01",
+  "archive": "GodEye-1.0.0-review.zip",
+  "sha256": "fcacab1c6f19d358acc391a7ee4fcd3072ea46d44696c92158c9f14e028deb7f",
+  "studio_import_passed": true,
+  "imported_runtime_files_match": true,
+  "crc_passed": true,
+  "files": [
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/__init__.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/client_system.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/config.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/core.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/effects.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/modMain.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/scanner.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/server_system.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/godEyeScripts/ui.py",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/manifest.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "behavior_pack_qbUAm8gp/pack_icon.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/manifest.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/pack_icon.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/accent.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/button.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_hover.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_pressed.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/eye.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/grip.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/hover.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/panel.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/radar.png",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/ui/_ui_defs.json",
+      "matches_imported_file": true
+    },
+    {
+      "file": "resource_pack_F1LzIf84/ui/mercuryx_godeye.json",
+      "matches_imported_file": true
+    }
+  ],
+  "component_uuid": "5062dcc8374145b480344ded9148ea01",
+  "python_script_enabled_in_imported_studio_config": true,
+  "probe_in_package": false,
+  "runtime_smoke_test_after_uuid_change": false,
+  "observed": [
+    "新UUID的ZIP已成功导入MCStudio为独立附加包",
+    "导入后的25个运行文件与ZIP逐字节一致",
+    "行为包、资源包和模块UUID均更新，行为包依赖指向新资源包UUID"
+  ],
+  "scope": "本轮验证新UUID包的导入和文件一致性；未启动新测试世界。之前的桌面运行记录属于旧UUID包，保存在history/import-check-original-uuid.json。",
+  "release_namespace_contract_passed": false
+}

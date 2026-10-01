@@ -1,0 +1,2437 @@
+{
+  "complete": true,
+  "method": "Native UI controls driven through documented callbacks",
+  "android_touch_verified": false,
+  "checks": [
+    {
+      "name": "default top-right native layout",
+      "evidence": {
+        "hud": true,
+        "entry_relative": null,
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 12,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 177.0,
+              "TouchPosY": 143.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 163.5,
+              "TouchPosY": 145.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 150.0,
+              "TouchPosY": 146.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 137.0,
+              "TouchPosY": 148.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 123.5,
+              "TouchPosY": 149.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 110.0,
+              "TouchPosY": 150.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 96.5,
+              "TouchPosY": 152.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 83.5,
+              "TouchPosY": 153.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0,
+          1.0,
+          0.96
+        ],
+        "tick": 14040,
+        "entry_position": [
+          445.0,
+          28.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777621.213652,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777622.869,
+        "progress": [
+          256,
+          258
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      }
+    },
+    {
+      "name": "native tap callback tolerates jitter and opens menu",
+      "evidence": {
+        "hud": true,
+        "entry_relative": null,
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 12,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 123.5,
+              "TouchPosY": 149.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 110.0,
+              "TouchPosY": 150.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 96.5,
+              "TouchPosY": 152.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 83.5,
+              "TouchPosY": 153.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0,
+          1.0,
+          0.96
+        ],
+        "tick": 14055,
+        "entry_position": [
+          445.0,
+          28.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": true,
+        "visual_notice": "",
+        "last_command": 1790777623.0236306,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777623.371,
+        "progress": [
+          256,
+          258
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      }
+    },
+    {
+      "name": "native drag moves control without opening menu",
+      "evidence": {
+        "hud": true,
+        "entry_relative": [
+          0.6043956043956044,
+          0.41194029850746267
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 12,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0,
+          1.0,
+          0.96
+        ],
+        "tick": 14085,
+        "entry_position": [
+          275.0,
+          138.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777624.0285468,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777624.369,
+        "progress": [
+          256,
+          258
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      }
+    },
+    {
+      "name": "dragged position survives native dimension round trip",
+      "evidence": {
+        "hud": true,
+        "entry_relative": [
+          0.6043956043956044,
+          0.41194029850746267
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE87284128>",
+        "light": 0,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.1,
+          1.1,
+          0.96
+        ],
+        "tick": 14220,
+        "entry_position": [
+          275.0,
+          138.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777624.0285468,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 42.968746185302734,
+        "time": 1790777628.868,
+        "progress": [
+          0,
+          0
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 5
+      }
+    },
+    {
+      "name": "native out-of-bounds drag clamps and cancels without menu",
+      "evidence": {
+        "hud": true,
+        "entry_relative": [
+          0.0,
+          1.0
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE87284128>",
+        "light": 0,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153.0
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_cancel"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.1,
+          1.1,
+          0.96
+        ],
+        "tick": 14235,
+        "entry_position": [
+          0.0,
+          335.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777629.0470953,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 51.89620590209961,
+        "time": 1790777629.37,
+        "progress": [
+          10,
+          245
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 5
+      }
+    },
+    {
+      "name": "UTF-8 chat callback hides launcher without disabling ability",
+      "evidence": {
+        "hud": true,
+        "entry_relative": [
+          0.0,
+          1.0
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE87284128>",
+        "light": 0,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153.0
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_cancel"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.1,
+          1.1,
+          0.96
+        ],
+        "tick": 14250,
+        "entry_position": [
+          0.0,
+          371.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777629.0470953,
+        "targets": [],
+        "entry_visible": false,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777629.868,
+        "progress": [
+          20,
+          245
+        ],
+        "entry_size": [
+          0.0,
+          0.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 5
+      }
+    },
+    {
+      "name": "second chat callback restores top-right launcher",
+      "evidence": {
+        "hud": true,
+        "entry_relative": null,
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE87284128>",
+        "light": 0,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 467.0,
+              "TouchPosY": 44
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 465.0,
+              "TouchPosY": 43
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": 295.0,
+              "TouchPosY": 153.0
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_cancel"
+          },
+          {
+            "args": {
+              "TouchPosX": -1000,
+              "TouchPosY": 1000
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.1,
+          1.1,
+          0.96
+        ],
+        "tick": 14280,
+        "entry_position": [
+          445.0,
+          28.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777629.0470953,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777630.867,
+        "progress": [
+          61,
+          245
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 5
+      }
+    }
+  ],
+  "actual_chat_input": {
+    "hidden": {
+      "entry_relative": [
+        0.6043956043956044,
+        0.41194029850746267
+      ],
+      "dead": false,
+      "ui_created": true,
+      "ready": true,
+      "engine_dimension": 0,
+      "targets": [
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            108.5
+          ],
+          "label": "钻石矿",
+          "id": "ore:diamond:(104, -61, 108)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            106.5
+          ],
+          "label": "金矿",
+          "id": "ore:gold:(104, -61, 106)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            110.5
+          ],
+          "label": "红石矿",
+          "id": "ore:redstone:(104, -61, 110)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            104.5
+          ],
+          "label": "铁矿",
+          "id": "ore:iron:(104, -61, 104)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            112.5
+          ],
+          "label": "青金石矿",
+          "id": "ore:lapis:(104, -61, 112)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            102.5
+          ],
+          "label": "铜矿",
+          "id": "ore:copper:(104, -61, 102)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            114.5
+          ],
+          "label": "绿宝石矿",
+          "id": "ore:emerald:(104, -61, 114)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            100.5
+          ],
+          "label": "煤矿",
+          "id": "ore:coal:(104, -61, 100)"
+        }
+      ],
+      "error": null,
+      "menu": false,
+      "last_command": 1790775964.9745865,
+      "root_size": [
+        543.0,
+        371.0
+      ],
+      "fps": 60.0775146484375,
+      "time": 1790776106.218,
+      "progress": [
+        254,
+        254
+      ],
+      "pending": null,
+      "revision": 1,
+      "hud": true,
+      "registered": true,
+      "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001354A8B0400>",
+      "runtime_errors": {},
+      "enhancement_owned": true,
+      "tick": 16275,
+      "entry_position": [
+        328.1867980957031,
+        152.82984924316406
+      ],
+      "enhancement_value": [
+        1.0666666666666667,
+        1.0666666666666667,
+        0.96
+      ],
+      "boards": 8,
+      "settings": {
+        "hidden_enabled": true,
+        "entity_enabled": true,
+        "level": 6,
+        "performance": "quality",
+        "ore_enabled": true,
+        "schema_version": 1,
+        "enhancement_enabled": true
+      },
+      "light": 4,
+      "visual_notice": "",
+      "entry_visible": false,
+      "command_result": null,
+      "entry_size": [
+        0.0,
+        0.0
+      ],
+      "dimension": 0
+    },
+    "restored": {
+      "entry_relative": null,
+      "dead": false,
+      "ui_created": true,
+      "ready": true,
+      "engine_dimension": 0,
+      "targets": [
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            108.5
+          ],
+          "label": "钻石矿",
+          "id": "ore:diamond:(104, -61, 108)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            106.5
+          ],
+          "label": "金矿",
+          "id": "ore:gold:(104, -61, 106)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            110.5
+          ],
+          "label": "红石矿",
+          "id": "ore:redstone:(104, -61, 110)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            104.5
+          ],
+          "label": "铁矿",
+          "id": "ore:iron:(104, -61, 104)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            112.5
+          ],
+          "label": "青金石矿",
+          "id": "ore:lapis:(104, -61, 112)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            102.5
+          ],
+          "label": "铜矿",
+          "id": "ore:copper:(104, -61, 102)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": true,
+          "pos": [
+            104.5,
+            -60.5,
+            114.5
+          ],
+          "label": "绿宝石矿",
+          "id": "ore:emerald:(104, -61, 114)"
+        },
+        {
+          "category": "ore",
+          "count": 2,
+          "rare": false,
+          "pos": [
+            104.5,
+            -60.5,
+            100.5
+          ],
+          "label": "煤矿",
+          "id": "ore:coal:(104, -61, 100)"
+        }
+      ],
+      "error": null,
+      "menu": false,
+      "last_command": 1790775964.9745865,
+      "root_size": [
+        543.0,
+        371.0
+      ],
+      "fps": 60.0775146484375,
+      "time": 1790776107.719,
+      "progress": [
+        254,
+        254
+      ],
+      "pending": null,
+      "revision": 1,
+      "hud": true,
+      "registered": true,
+      "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001354A8B0400>",
+      "runtime_errors": {},
+      "enhancement_owned": true,
+      "tick": 16320,
+      "entry_position": [
+        445.0,
+        28.0
+      ],
+      "enhancement_value": [
+        1.0666666666666667,
+        1.0666666666666667,
+        0.96
+      ],
+      "boards": 8,
+      "settings": {
+        "hidden_enabled": true,
+        "entity_enabled": true,
+        "level": 6,
+        "performance": "quality",
+        "ore_enabled": true,
+        "schema_version": 1,
+        "enhancement_enabled": true
+      },
+      "light": 4,
+      "visual_notice": "",
+      "entry_visible": true,
+      "command_result": null,
+      "entry_size": [
+        88.0,
+        36.0
+      ],
+      "dimension": 0
+    }
+  },
+  "actual_pointer_input": {
+    "method": "Windows development client SimulateTouchWithMouse, OS mouse down/move/up",
+    "checks": {
+      "launcher-touch-drag.json": {
+        "hud": true,
+        "entry_relative": [
+          0.643956043956044,
+          0.32238805970149254
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 8,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 381.0,
+              "TouchPosY": 93.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 373.0,
+              "TouchPosY": 97.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 365.5,
+              "TouchPosY": 101.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 358.0,
+              "TouchPosY": 105.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 350.5,
+              "TouchPosY": 109.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 343.0,
+              "TouchPosY": 113.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 335.0,
+              "TouchPosY": 117.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 327.5,
+              "TouchPosY": 121.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0333333333333334,
+          1.0333333333333334,
+          0.96
+        ],
+        "tick": 10140,
+        "entry_position": [
+          293.0,
+          108.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777163.2252872,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777492.872,
+        "progress": [
+          258,
+          258
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      },
+      "launcher-touch-tap.json": {
+        "hud": true,
+        "entry_relative": [
+          0.643956043956044,
+          0.32238805970149254
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 8,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 350.5,
+              "TouchPosY": 109.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 343.0,
+              "TouchPosY": 113.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 335.0,
+              "TouchPosY": 117.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 327.5,
+              "TouchPosY": 121.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 320.0,
+              "TouchPosY": 125.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 337.0,
+              "TouchPosY": 126.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 1,
+              "#collection_index": -1
+            },
+            "event": "on_entry_down"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 337.0,
+              "TouchPosY": 126.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 337.0,
+              "TouchPosY": 126.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0333333333333334,
+          1.0333333333333334,
+          0.96
+        ],
+        "tick": 10170,
+        "entry_position": [
+          349.6681213378906,
+          119.60597229003906
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": true,
+        "visual_notice": "",
+        "last_command": 1790777163.2252872,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777493.861,
+        "progress": [
+          258,
+          258
+        ],
+        "entry_size": [
+          0.0,
+          0.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      },
+      "launcher-touch-over-radar.json": {
+        "hud": true,
+        "entry_relative": [
+          0.05714285714285714,
+          0.408955223880597
+        ],
+        "registered": true,
+        "get_ui": "<godEyeScripts.ui.GodEyeHUD object at 0x000001CE914872B0>",
+        "light": 8,
+        "ui_created": true,
+        "command_result": true,
+        "entry_events": [
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 177.0,
+              "TouchPosY": 143.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 163.5,
+              "TouchPosY": 145.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 150.0,
+              "TouchPosY": 146.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 137.0,
+              "TouchPosY": 148.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 123.5,
+              "TouchPosY": 149.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 110.0,
+              "TouchPosY": 150.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 96.5,
+              "TouchPosY": 152.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 83.5,
+              "TouchPosY": 153.5,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 4,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_up"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 70.0,
+              "TouchPosY": 155.0,
+              "ButtonState": 0,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 0,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          },
+          {
+            "args": {
+              "PrevButtonDownID": "450606736",
+              "TouchPosX": 0.0,
+              "TouchPosY": 0.0,
+              "ButtonState": 1,
+              "ButtonPath": "/root/entry",
+              "AddTouchEventParams": {
+                "isSwallow": true
+              },
+              "#collection_name": "",
+              "TouchId": 0,
+              "TouchEvent": 6,
+              "#collection_index": -1
+            },
+            "event": "on_entry_move"
+          }
+        ],
+        "dead": false,
+        "ready": true,
+        "enhancement_owned": true,
+        "enhancement_value": [
+          1.0333333333333334,
+          1.0333333333333334,
+          0.96
+        ],
+        "tick": 10230,
+        "entry_position": [
+          26.0,
+          137.0
+        ],
+        "root_size": [
+          543.0,
+          371.0
+        ],
+        "engine_dimension": 0,
+        "boards": 0,
+        "settings": {
+          "hidden_enabled": true,
+          "entity_enabled": true,
+          "level": 6,
+          "performance": "quality",
+          "ore_enabled": true,
+          "schema_version": 1,
+          "enhancement_enabled": true
+        },
+        "runtime_errors": {},
+        "menu": false,
+        "visual_notice": "",
+        "last_command": 1790777493.986547,
+        "targets": [],
+        "entry_visible": true,
+        "error": null,
+        "fps": 60.0775146484375,
+        "time": 1790777495.87,
+        "progress": [
+          258,
+          258
+        ],
+        "entry_size": [
+          88.0,
+          36.0
+        ],
+        "dimension": 0,
+        "pending": null,
+        "revision": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "name": "天眼：七级视觉与探索感知",
+  "core_features": [
+    {
+      "id": "vision",
+      "title": "七级选择与暗处视觉",
+      "evidence": "../docs/acceptance.md；sources/gameplay/02-vision.mp4；05-controls.mp4"
+    },
+    {
+      "id": "sense",
+      "title": "矿脉、特殊生命、容器与机关感知",
+      "evidence": "../docs/validation/native-acceptance.json；sources/gameplay/03-sense.mp4"
+    },
+    {
+      "id": "markers",
+      "title": "Lv.6穿遮挡文字标记与接入目标",
+      "evidence": "sources/gameplay/04-markers.mp4；scene-setup.json；../docs/validation/native-catalog.json"
+    },
+    {
+      "id": "controls",
+      "title": "分类、范围与即时保存",
+      "evidence": "sources/gameplay/05-controls.mp4；05-controls-events.json；../docs/validation/mobile-resolution/summary.json"
+    }
+  ],
+  "mod": {
+    "packs": [
+      "../behavior_pack_qbUAm8gp",
+      "../resource_pack_F1LzIf84"
+    ],
+    "external_namespaces": []
+  },
+  "images": {
+    "icon_landscape": {
+      "source": "sources/design/icon-landscape.png",
+      "kind": "promotional",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "vision",
+        "sense",
+        "markers"
+      ],
+      "note": "实机洞穴背景 + 工程原有64px天眼图标 + 微软雅黑排版；每版独立构图，设计源tools/release_design.py；非实机截图。"
+    },
+    "icon_square": {
+      "source": "sources/design/icon-square.png",
+      "kind": "promotional",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "vision",
+        "sense",
+        "markers"
+      ],
+      "note": "实机洞穴背景 + 工程原有64px天眼图标 + 微软雅黑排版；每版独立构图，设计源tools/release_design.py；非实机截图。"
+    },
+    "icon_card": {
+      "source": "sources/design/icon-card.png",
+      "kind": "promotional",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "vision",
+        "sense",
+        "markers"
+      ],
+      "note": "实机洞穴背景 + 工程原有64px天眼图标 + 微软雅黑排版；每版独立构图，设计源tools/release_design.py；非实机截图。"
+    },
+    "carousel_01": {
+      "source": "sources/gameplay/menu.png",
+      "kind": "gameplay",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "controls",
+        "vision"
+      ],
+      "note": "2026-10-01，天眼1.0.0，Windows开发包3.10.0.420447，1280×720原生实机，专建洞穴演示区；保留对应JSON状态，入口/任务由测试工具接入；输出仅等比缩小。"
+    },
+    "carousel_02": {
+      "source": "sources/gameplay/night-on.png",
+      "kind": "gameplay",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "vision"
+      ],
+      "note": "2026-10-01，天眼1.0.0，Windows开发包3.10.0.420447，1280×720原生实机，专建洞穴演示区；保留对应JSON状态，入口/任务由测试工具接入；输出仅等比缩小。"
+    },
+    "carousel_03": {
+      "source": "sources/gameplay/markers.png",
+      "kind": "gameplay",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "sense",
+        "markers"
+      ],
+      "note": "2026-10-01，天眼1.0.0，Windows开发包3.10.0.420447，1280×720原生实机，专建洞穴演示区；保留对应JSON状态，入口/任务由测试工具接入；输出仅等比缩小。"
+    },
+    "home": {
+      "source": "sources/design/home.png",
+      "kind": "promotional",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "features": [
+        "vision",
+        "sense",
+        "markers"
+      ],
+      "note": "实机洞穴背景 + 工程原有64px天眼图标 + 微软雅黑排版；每版独立构图，设计源tools/release_design.py；非实机截图。"
+    }
+  },
+  "video": {
+    "clips": [
+      {
+        "source": "sources/edited/01-intro.mp4",
+        "start": 0,
+        "duration": 6,
+        "kind": "gameplay",
+        "features": [
+          "sense",
+          "markers"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/01-intro.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      },
+      {
+        "source": "sources/edited/02-vision.mp4",
+        "start": 0,
+        "duration": 15,
+        "kind": "gameplay",
+        "features": [
+          "vision"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/02-vision.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      },
+      {
+        "source": "sources/edited/03-sense.mp4",
+        "start": 0,
+        "duration": 12,
+        "kind": "gameplay",
+        "features": [
+          "sense"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/03-sense.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      },
+      {
+        "source": "sources/edited/04-markers.mp4",
+        "start": 0,
+        "duration": 10,
+        "kind": "gameplay",
+        "features": [
+          "markers"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/04-markers.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      },
+      {
+        "source": "sources/edited/05-controls.mp4",
+        "start": 0,
+        "duration": 16,
+        "kind": "gameplay",
+        "features": [
+          "vision",
+          "controls"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/05-controls.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      },
+      {
+        "source": "sources/edited/06-outro.mp4",
+        "start": 0,
+        "duration": 6,
+        "kind": "gameplay",
+        "features": [
+          "markers"
+        ],
+        "note": "Windows开发包3.10.0.420447真实桌面录屏，原始片段sources/gameplay/06-outro.mp4；仅叠加说明字幕与原创合成背景音乐，无原游戏音轨。"
+      }
+    ],
+    "cover_time": 3
+  }
+}

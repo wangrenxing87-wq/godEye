@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "4a27ab300ecc51cdd1f2ed73e51218bb2c24daddc6d8e46a147b6a22e7346356",
+  "file_count": 25,
+  "crc_ok": true,
+  "source_and_per_file_sha256_match": true,
+  "no_probe_or_bytecode": true,
+  "python27_tests_passed": 50,
+  "python3_tests_passed": 50,
+  "behavior_validation_errors": 0,
+  "resource_validation_errors": 0,
+  "validation_warning": "Existing format 2 retained; documentation snapshot expects format 1.",
+  "disabled_texture_and_references_removed": true,
+  "all_locked_states_reuse_button_texture": true,
+  "json_initial_grayscale": true,
+  "native_api": "ImageUIControl.SetSpriteGray",
+  "existing_tests_verify_locked_and_unlocked_grayscale": true,
+  "existing_tests_verify_input_guards": true,
+  "texture_references_exist": true,
+  "button_text_offsets_and_readability_preserved": true,
+  "observed_native_issue": "Lv.0 options showed magenta/black missing-texture pattern.",
+  "native_before_screenshot": "lv0-background-before.png",
+  "native_after_check": false
+}

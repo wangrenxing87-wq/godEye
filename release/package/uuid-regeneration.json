@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-01",
+  "reason": "用户报告行为包主UUID冲突，要求重新生成。同步重建两包主UUID、模块UUID和依赖引用。",
+  "mapping": {
+    "b8b881de-9c1a-48e5-ae2a-68f3de152d51": "7f2753ea-bb6b-4292-8192-a93944e663c1",
+    "1be38f77-c68e-4368-b98a-b2efa01fe436": "773fe205-7e4a-4551-9e1b-dcb80358ed6a",
+    "ffc03076-c57e-45ce-8c2e-48bf8dbc17f5": "465f1381-0758-4520-9f87-9d8c2b1974a3",
+    "3c7b154d-9450-428f-b2c7-41f161cd694f": "55ef3174-b49f-479e-babf-a4e613cea219"
+  },
+  "version": [1, 0, 0],
+  "min_engine_version": [1, 18, 0]
+}

@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "e60e0a9bf67855749cef7f6bed8b697a236c869b7aa14d375fdeb1a960088be2",
+  "file_count": 25,
+  "crc_ok": true,
+  "source_matches_archive": true,
+  "probe_in_archive": false,
+  "resource_validation_errors": 0,
+  "checked_gui_heights": [
+    240,
+    300,
+    371
+  ],
+  "native_visual_check_this_revision": false
+}

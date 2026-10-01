@@ -1,0 +1,111 @@
+{
+  "archive": "GodEye-1.0.0-review.zip",
+  "version": [
+    1,
+    0,
+    0
+  ],
+  "files": [
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/__init__.py",
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/client_system.py",
+      "sha256": "fbb5893b4b46e076a0efa490ac2fdcaee11f0460cd07dbb3d95ff2baa097c4be"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/config.py",
+      "sha256": "4ee37eee0cd68f05fcb7a9ce166f2b96b8cd58a1a58b12d9bf6e317105f18d84"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/core.py",
+      "sha256": "c7ec49474146bdf82065ada80938ff4125a02ddf41b755cd1a92d3f1bd2c309c"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/effects.py",
+      "sha256": "fcc6dafca33977c3b77df2bbe3aa0b0f49a7d829ddb63e10d46c8e20faace5f0"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/modMain.py",
+      "sha256": "a8065e41c8159bec64bdbd34fbe83f1d8c36d8a2c6f0e5586c89ababd6f60894"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/scanner.py",
+      "sha256": "cc4ce7d9b3998c5426f9da877bd258a888ee2ee514089aa83f4bf3f41dc3b2b4"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/server_system.py",
+      "sha256": "cb4e1a7358ed21a2acff4c9d5da16f7fe219cf22bb6548911a97ef75a18d6fc3"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/godEyeScripts/ui.py",
+      "sha256": "f6972c810df8eb4e1e7ce29a2d3f1a4036e203332d7086e79b2557ee945bc934"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/manifest.json",
+      "sha256": "b6adf4459362513c76ea8909946be8f6c1a6933b06a7c135912055574802b9ce"
+    },
+    {
+      "path": "behavior_pack_qbUAm8gp/pack_icon.png",
+      "sha256": "c0b1bb4439aee45444906549a25c60fe9560d9249dd3c9f14712ea2731407127"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/manifest.json",
+      "sha256": "2adf8b7a19848a7122c375bb93cb2462b823eb35b521d3847b1d1b868082f1f7"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/pack_icon.png",
+      "sha256": "c0b1bb4439aee45444906549a25c60fe9560d9249dd3c9f14712ea2731407127"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/accent.png",
+      "sha256": "e09a445f9ce3bab9abfa3d7d3723e110915001a93872d5331ef6e832aaebb139"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/button.png",
+      "sha256": "e6ad36c854f70bf5ce089b1acd6706a8519f7405beb90d11b7b2fbe1bf5452bc"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry.png",
+      "sha256": "7926f4eb29be0a2f27d0cd59dcb4746440d6565a9752e39332622a2ec0757a3f"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_hover.png",
+      "sha256": "ded8fd3716b7e127de5c3bc01e9988fdd43448839c94934cb00e5646bc0760bf"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/entry_pressed.png",
+      "sha256": "3f45c89feea086d8c5967a4df07e735312da23b28512bc106e5d6718fa563100"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/eye.png",
+      "sha256": "c8b1161fe438f791305bab25498836cf539ec7877c3fe87cc99d2a05528136cb"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/grip.png",
+      "sha256": "3d49d043b26133b143e043c7caeb0556e370050c78198adf756b288a362cdcc4"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/hover.png",
+      "sha256": "1778fda58508a544b98f6d50ccee2523c0e905cacd7bdb50582f7be3cec45f6e"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/panel.png",
+      "sha256": "2d3b2349fe295e0bb82984a88c2f341721d43d097bdb123cbda3814fc068f1b4"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/textures/ui/mercuryx_godeye/radar.png",
+      "sha256": "aa884457b64774deaeba16e1bbcbb667e83bd4fe22fe57c4778d53973fc899c4"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/ui/_ui_defs.json",
+      "sha256": "34c57aa9f7c151adff532b4bd50b866ffa51de57b91d4a3a7cfdd39986f70d69"
+    },
+    {
+      "path": "resource_pack_F1LzIf84/ui/mercuryx_godeye.json",
+      "sha256": "bb4ef8730620dfc1a2318767406e4500ec0e999112c918fa7d0ed2605340a85f"
+    }
+  ],
+  "sha256": "fcacab1c6f19d358acc391a7ee4fcd3072ea46d44696c92158c9f14e028deb7f"
+}

@@ -1,0 +1,139 @@
+{
+  "ready_to_submit": false,
+  "automated_passed": false,
+  "human_review_passed": false,
+  "checks": [
+    {
+      "name": "metadata",
+      "passed": true,
+      "detail": {
+        "features": [
+          "controls",
+          "markers",
+          "sense",
+          "vision"
+        ]
+      }
+    },
+    {
+      "name": "copy",
+      "passed": true,
+      "detail": {
+        "details_characters": 745
+      }
+    },
+    {
+      "name": "build_records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "icon_landscape",
+      "passed": true,
+      "detail": {
+        "width": 992,
+        "height": 558,
+        "bytes": 354406
+      }
+    },
+    {
+      "name": "icon_square",
+      "passed": true,
+      "detail": {
+        "width": 1000,
+        "height": 1000,
+        "bytes": 486969
+      }
+    },
+    {
+      "name": "icon_card",
+      "passed": true,
+      "detail": {
+        "width": 900,
+        "height": 580,
+        "bytes": 303528
+      }
+    },
+    {
+      "name": "carousel_01",
+      "passed": true,
+      "detail": {
+        "width": 992,
+        "height": 558,
+        "bytes": 241090
+      }
+    },
+    {
+      "name": "carousel_02",
+      "passed": true,
+      "detail": {
+        "width": 992,
+        "height": 558,
+        "bytes": 590453
+      }
+    },
+    {
+      "name": "carousel_03",
+      "passed": true,
+      "detail": {
+        "width": 992,
+        "height": 558,
+        "bytes": 610607
+      }
+    },
+    {
+      "name": "home",
+      "passed": true,
+      "detail": {
+        "width": 940,
+        "height": 450,
+        "bytes": 297931
+      }
+    },
+    {
+      "name": "carousel_distinct_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video",
+      "passed": true,
+      "detail": {
+        "duration": 65.0,
+        "bytes": 5863705,
+        "width": 1280,
+        "height": 720,
+        "video": "h264",
+        "audio": "aac"
+      }
+    },
+    {
+      "name": "video_cover",
+      "passed": true,
+      "detail": {
+        "width": 992,
+        "height": 558,
+        "bytes": 465896
+      }
+    },
+    {
+      "name": "package",
+      "passed": false,
+      "error": "[Errno 2] No such file or directory: 'C:\\\\Apps\\\\mercuryx\\\\godEye\\\\release\\\\package\\\\mod.zip'",
+      "human": false
+    },
+    {
+      "name": "human_review",
+      "passed": false,
+      "error": "Human review pending: activity_fields",
+      "human": true
+    }
+  ],
+  "errors": [
+    "package: [Errno 2] No such file or directory: 'C:\\\\Apps\\\\mercuryx\\\\godEye\\\\release\\\\package\\\\mod.zip'",
+    "human_review: Human review pending: activity_fields"
+  ],
+  "warnings": [
+    "Technical checks and declared provenance do not prove gameplay authenticity, visual quality, or runtime compatibility."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "七级夜视与探索感知 · MercuryX",
+    "min_engine_version": [
+      1,
+      18,
+      0
+    ],
+    "name": "天眼 · 资源包",
+    "uuid": "465f1381-0758-4520-9f87-9d8c2b1974a3",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "55ef3174-b49f-479e-babf-a4e613cea219",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
